@@ -1,0 +1,49 @@
+package com.king.module.game.game_32.data
+{
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-7-2
+	 */
+	public class Game32LevelInfo
+	{
+		
+		public static const LEVEL_1:Game32LevelVo = new Game32LevelVo( 1, [1,1,1,2,2], [1,2,3] );
+		public static const LEVEL_2:Game32LevelVo = new Game32LevelVo( 2, [1,1,1,2,2], [1,2,3] );
+		public static const LEVEL_3:Game32LevelVo = new Game32LevelVo( 3, [1,1,1,2,2], [1,2,3] );
+		public static const LEVEL_4:Game32LevelVo = new Game32LevelVo( 4, [1,1,1,1,2,2,3], [1,2,3,4] );
+		public static const LEVEL_5:Game32LevelVo = new Game32LevelVo( 5, [1,1,1,1,2,2,3], [1,2,3,4] );
+		public static const LEVEL_6:Game32LevelVo = new Game32LevelVo( 6, [1,1,1,1,2,2,3], [1,2,3,4] );
+		public static const LEVEL_7:Game32LevelVo = new Game32LevelVo( 7, [1,1,1,1,2,2,3,4], [1,2,3,4,5] );
+		public static const LEVEL_8:Game32LevelVo = new Game32LevelVo( 8, [1,1,1,1,2,2,3,4], [1,2,3,4,5] );
+		public static const LEVEL_9:Game32LevelVo = new Game32LevelVo( 9, [1,1,1,1,2,2,3,4], [1,2,3,4,5] );
+		public static const LEVEL_10:Game32LevelVo = new Game32LevelVo( 10, [2,3,3,2,2,2,3,4,4], [1,2,3,4,5] );
+		public static const LEVEL_11:Game32LevelVo = new Game32LevelVo( 11, [2,3,3,2,2,2,3,4,4], [1,2,3,4,5] );
+		public static const LEVEL_12:Game32LevelVo = new Game32LevelVo( 12, [2,3,3,2,2,2,3,4,4], [1,2,3,4,5] );
+		public static const LEVEL_13:Game32LevelVo = new Game32LevelVo( 13, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_14:Game32LevelVo = new Game32LevelVo( 14, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_15:Game32LevelVo = new Game32LevelVo( 15, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_16:Game32LevelVo = new Game32LevelVo( 16, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_17:Game32LevelVo = new Game32LevelVo( 17, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_18:Game32LevelVo = new Game32LevelVo( 18, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_19:Game32LevelVo = new Game32LevelVo( 19, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_20:Game32LevelVo = new Game32LevelVo( 20, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_21:Game32LevelVo = new Game32LevelVo( 21, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_22:Game32LevelVo = new Game32LevelVo( 22, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_23:Game32LevelVo = new Game32LevelVo( 23, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_24:Game32LevelVo = new Game32LevelVo( 24, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_25:Game32LevelVo = new Game32LevelVo( 25, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_26:Game32LevelVo = new Game32LevelVo( 26, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		public static const LEVEL_27:Game32LevelVo = new Game32LevelVo( 27, [2,3,3,2,2,2,3,4,4,4], [1,2,3,4,5] );
+		
+		public static function getLevelInfoByLevel( level:int ):Game32LevelVo
+		{
+			var vo:Game32LevelVo = Game32LevelInfo["LEVEL_" + level];
+			if ( vo ) return vo.clone();
+			return new Game32LevelVo();
+		}
+		
+		
+	}
+}

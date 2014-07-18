@@ -1,0 +1,300 @@
+package com.king.module.game.game_32
+{
+	import flash.display.DisplayObject;
+	import flash.display.MovieClip;
+	import flash.display.Sprite;
+	
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-7-1
+	 */
+	public class Game32Model extends Sprite implements IModel
+	{
+		protected var uiRes:MovieClip;
+		
+		protected var _totalHp:int = 0;
+		
+		protected var _type:int;
+		protected var _direction:int;
+		protected var _speed:Number = 2;
+		protected var _isDispose:Boolean;
+		protected var _isDeath:Boolean;
+		
+		protected var _faultTolerant:int = 1;
+		protected var _hitTarget:DisplayObject;
+		
+		public function Game32Model( type:int = 1, direction:int = 0 )
+		{
+			initParams();
+			this.type = type;
+			this.direction = direction;
+		}
+		
+		protected function initParams():void
+		{
+		}
+		
+		protected function refreshPos():void
+		{
+			switch( direction )
+			{
+				case Game32ConstType.UP:
+					y -= speed;
+					x = row * Game32ConstType.WIDTH;
+					break;
+				case Game32ConstType.RIGHT:
+					x += speed;
+					y = col * Game32ConstType.HEIGHT;
+					break;
+				case Game32ConstType.DOWN:
+					y += speed;
+					x = row * Game32ConstType.WIDTH;
+					break;
+				case Game32ConstType.LEFT:
+					x -= speed;
+					y = col * Game32ConstType.HEIGHT;
+					break;
+				default:
+					break;
+			}
+			
+			x = Math.max( x, 0 );
+			x = Math.min( x, Game32ConstType.WIDTH * ( Game32ConstType.ROW - 1 ) );
+			
+			y = Math.max( y, 0 );
+			y = Math.min( y, Game32ConstType.HEIGHT * ( Game32ConstType.COL - 1 ) );
+		}
+		
+		/////////////////
+		
+		protected function get isLeft():Boolean
+		{
+			return direction == Game32ConstType.LEFT;
+		}
+		
+		protected function get isRight():Boolean
+		{
+			return direction == Game32ConstType.RIGHT;
+		}
+		
+		protected function get isUp():Boolean
+		{
+			return direction == Game32ConstType.UP;
+		}
+		
+		protected function get isDown():Boolean
+		{
+			return direction == Game32ConstType.DOWN;
+		}
+		
+		protected function get totalHp():int
+		{
+			return _totalHp;
+		}
+		
+		protected function set totalHp(value:int):void
+		{
+			_totalHp = value;
+		}
+		
+		////////////////////////
+		
+		public function dispose():void
+		{
+			DisplayUtil.removeFromParent( this );
+			DisplayUtil.removeFromParent( uiRes );
+			_isDispose = true;
+		}
+		
+		public function injured(hp:int):void
+		{
+			trace( "被攻击伤害 " + hp );
+			totalHp -= hp;
+			if ( totalHp <= 0 )
+			{
+				_isDispose = true;
+				_isDeath = true;
+			}
+		}
+		
+		public function setPos(sx:Number, sy:Number):void
+		{
+			x = sx;
+			y = sy;
+		}
+		
+		public function updatePos():void
+		{
+			refreshPos();
+		}
+		
+		public function isRange( element:IElement ):Boolean
+		{
+			if ( element && this != element )
+			{
+				var lx:Number = x - Game32ConstType.WIDTH;
+				var rx:Number = x + Game32ConstType.WIDTH;
+				var uy:Number = y - Game32ConstType.HEIGHT;
+				var dy:Number = y + Game32ConstType.HEIGHT;
+				if ( isUp || isDown)
+				{
+					var boo1:Boolean = element.x > lx && element.x < rx;
+					var boo2:Boolean = isUp ? element.y <= y && element.y >= uy : element.y >= y && element.y <= dy;
+					return boo1 && boo2;
+				}
+				else if ( isLeft || isRight )
+				{
+					var boo3:Boolean = element.y > uy && element.y < dy;
+					var boo4:Boolean = isLeft ? element.x <= x && element.x >= lx : element.x >= x && element.x <= rx;
+					return boo3 && boo4;
+				}
+			}
+			return false;
+		}
+		
+		///////////////
+		
+		public function get hitTarget():DisplayObject
+		{
+			if ( _hitTarget == null )
+			{
+				var sp:Sprite = new Sprite();
+				sp.graphics.beginFill( 0, 0 );
+				sp.graphics.drawCircle( 0, 0, Game32ConstType.WIDTH * 0.5 );
+				sp.graphics.endFill();
+				_hitTarget = sp;
+			}
+			return _hitTarget;
+		}
+		
+		public function get attackHp():int
+		{
+			return 0;
+		}
+		
+		public function get col():int
+		{
+			var temp:int = Math.round( y / Game32ConstType.HEIGHT );
+			temp = Math.max( temp, 0 );
+			temp = Math.min( temp, Game32ConstType.COL - 1 );
+			return temp;
+		}
+		
+		public function get row():int
+		{
+			var temp:int = Math.round( x / Game32ConstType.WIDTH );
+			temp = Math.max( temp, 0 );
+			temp = Math.min( temp, Game32ConstType.ROW - 1 );
+			return temp;
+		}
+		
+		public function get isEdge():Boolean
+		{
+			if ( ( row <= 0 && isLeft ) || 
+				 ( col <= 0 && isUp ) || 
+				 ( Game32ConstType.MAX_ROW <= row && isRight ) || 
+				 ( Game32ConstType.MAX_COL <= col && isDown ) )
+			{
+				return true;
+			}
+			return false;
+		}
+		
+		public function get nextCol():int 
+		{
+			switch( direction )
+			{
+				case Game32ConstType.UP:
+//					return Math.max( col - 1, 0 );
+					break;
+				case Game32ConstType.DOWN:
+					return Math.min( col + 1, Game32ConstType.COL );
+				default:
+					break;
+			}
+			return col;
+		}
+		
+		public function get nextRow():int
+		{
+			switch( direction )
+			{
+				case Game32ConstType.LEFT:
+//					return Math.max( row - 1, 0 );
+					break;
+				case Game32ConstType.RIGHT:
+					return Math.min( row + 1, Game32ConstType.MAX_ROW );
+				default:
+					break;
+			}
+			return row;
+		}
+		
+		public function get type():int
+		{
+			return _type;
+		}
+		
+		public function set type(value:int):void
+		{
+			_type = value;
+		}
+		
+		public function get direction():int
+		{
+			return _direction;
+		}
+		
+		public function set direction(value:int):void
+		{
+			_direction = value;
+			if ( uiRes ) uiRes.rotation = 90 * value;
+		}
+		
+		public function get speed():Number
+		{
+			return _speed;
+		}
+		
+		public function set speed(value:Number):void
+		{
+			_speed = value;
+		}
+		
+		public function get isDispose():Boolean
+		{
+			return _isDispose;
+		}
+		
+		public function set isDispose(value:Boolean):void
+		{
+			_isDispose = value;
+		}
+		
+		public function get isDeath():Boolean
+		{
+			return _isDeath;
+		}
+
+		public function set isDeath(value:Boolean):void
+		{
+			_isDeath = value;
+		}
+		
+		public function get modelType():int
+		{
+			return 0;
+		}
+		
+		public function get isCanBullet():Boolean
+		{
+			return modelType != Game32ConstType.BULLET && modelType != Game32ConstType.PROP;
+		}
+
+
+	}
+}

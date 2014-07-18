@@ -1,0 +1,23 @@
+package game.uitl
+{
+	
+	/**
+	 * 安全回调方法
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public function calls( func:Function, ...args ):void
+	{
+		if ( func != null )
+		{
+			if ( func.length == 0 )
+			{
+				func();
+			}
+			else
+			{
+				func.apply( null, args );
+			}
+		}
+	}
+}

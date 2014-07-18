@@ -1,0 +1,38 @@
+package com.king.module.game.game_32.skin
+{
+	import com.king.core.manager.AnimationManager;
+	
+	import flash.display.Sprite;
+	
+	import org.JLibrary.manager.StageManager;
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32Ready321 extends Sprite
+	{
+		private var uiRes:UI_V_GameReady321;
+		
+		public function Game32Ready321( callBackFun:Function = null )
+		{
+			uiRes = new UI_V_GameReady321();
+			addChild( uiRes );
+			
+			StageManager.stage.mouseChildren = false;
+			AnimationManager.playFrameAnimate( uiRes, 0, "", function ():void
+			{
+				if ( callBackFun != null )
+				{
+					DisplayUtil.removeFromParent( uiRes );
+					StageManager.stage.mouseChildren = true;
+					callBackFun();
+					callBackFun = null;
+				}
+			});
+		}
+	}
+}

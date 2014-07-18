@@ -1,0 +1,45 @@
+package com.king.module.game.game_32.data
+{
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-7-2
+	 */
+	public class Game32LevelVo
+	{
+		public var level:int = 1;
+		/**
+		 * 敌人列表 type
+		 */
+		public var enemyList:Array;
+		/**
+		 * 将会出现的道具id
+		 */
+		public var propList:Array;
+		
+		public function Game32LevelVo(level:int = 1, 
+									  eList:Array = null, 
+									  pList:Array = null )
+		{
+			this.level = level;
+			this.enemyList = eList;
+			this.propList = pList;
+		}
+		
+		public function get curMapArray():Array
+		{
+			return Game32MapInfo.getInfoByLevel( level );
+		}
+		
+		
+		public function clone():Game32LevelVo
+		{
+			return new Game32LevelVo( 	level, 
+										enemyList.slice(), 
+										propList.slice() 
+									);
+		}
+		
+	}
+}

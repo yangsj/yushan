@@ -1,0 +1,111 @@
+package com.king.module.game.game_32.skin
+{
+	import com.king.core.cmd.Cmd_2241;
+	import com.king.module.game.game_32.calls;
+	
+	import flash.display.InteractiveObject;
+	import flash.display.Sprite;
+	import flash.events.MouseEvent;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32Background extends Sprite
+	{
+		private var uiView:UI_V_GameMainView;
+		private var onBackFun:Function;
+		private var onExitFun:Function ;
+		private var gameData:Cmd_2241;
+		
+		private var isStarting:Boolean = false;
+		
+		public function Game32Background( onBackFun:Function, onExitFun:Function )
+		{
+			this.onBackFun = onBackFun;
+			this.onExitFun = onExitFun;
+			
+			uiView = new UI_V_GameMainView();
+			addChild( uiView );
+			
+			this.addEventListener( MouseEvent.CLICK, clickHandler );
+			
+			endGame();
+		}
+		
+		protected function clickHandler( event:MouseEvent ):void
+		{
+			var target:InteractiveObject = event.target as InteractiveObject;
+			if ( target == uiView.btnClose )
+			{
+				if ( isStarting )
+				{
+					calls( onBackFun );
+				}
+				else
+				{
+					calls( onExitFun );
+				}
+			}
+		}
+		
+		public function destroy():void
+		{
+			this.removeEventListener( MouseEvent.CLICK, clickHandler );
+			this.onBackFun = null;
+			this.onExitFun = null;
+			this.gameData  = null;
+		}
+		
+		public function endGame():void
+		{
+			isStarting = false;
+			setInitStatus( false );
+		}
+		
+		public function startGame():void
+		{
+			isStarting = true;
+		}
+		
+		public function initData( gameData:Cmd_2241 ):void
+		{
+			this.gameData = gameData;
+			uiView.mcLevel.gotoAndStop( gameData.crtLevel );
+			setInitStatus( true );
+			refreshScoreDisplay();
+		}
+		
+		public function refreshScoreDisplay():void
+		{
+			uiView.txtScore.text = gameData.crtScore.toString();
+		}
+		
+		public function refreshEnemyNumDisplay( num:int ):void
+		{
+			num = Math.max( num, 0 );
+			uiView.txtNeedScore.text = num.toString();
+		}
+		
+		private function setInitStatus( enabled:Boolean ):void
+		{
+			uiView.mcLevel.visible = enabled;
+			uiView.txtNeedScore.visible = enabled;
+			uiView.txtScore.visible = enabled;
+		}
+		
+		public function get effectContainer():Sprite
+		{
+			return uiView.effectCon;
+		}
+		
+		public function get modelContainer():Sprite
+		{
+			return uiView.modelCon;
+		}
+		
+		
+	}
+}

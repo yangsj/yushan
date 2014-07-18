@@ -1,0 +1,36 @@
+package com.king.module.game.game_32.skin
+{
+	import com.king.core.manager.AnimationManager;
+	
+	import flash.display.Sprite;
+	
+	import org.JLibrary.manager.StageManager;
+	import com.king.module.game.game_32.calls;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32PassCurrentRound extends Sprite
+	{
+		private var uiRes:UI_V_GamePassCurrentRound;
+		
+		public function Game32PassCurrentRound( desc:String, callBackFunc:Function = null )
+		{
+			uiRes = new UI_V_GamePassCurrentRound();
+			addChild( uiRes );
+			
+			if ( !desc ) desc = " ";
+			uiRes.mc.txtScore.text = desc;
+			
+			StageManager.stage.mouseChildren = false;
+			AnimationManager.playFrameAnimate( uiRes, 0, "", function ():void
+			{
+				StageManager.stage.mouseChildren = true;
+				calls( callBackFunc );
+			});
+		}
+	}
+}

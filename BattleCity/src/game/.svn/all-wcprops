@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32
+END
+IDispose.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IDispose.as
+END
+IEnemy.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IEnemy.as
+END
+Game32Bullet.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32Bullet.as
+END
+Game32ConstType.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32ConstType.as
+END
+Game32WalllMaterial.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32WalllMaterial.as
+END
+Game32PlayerHost.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32PlayerHost.as
+END
+Game32Player.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32Player.as
+END
+calls.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/calls.as
+END
+Game32PropItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32PropItem.as
+END
+Game32Model.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32Model.as
+END
+IBullet.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IBullet.as
+END
+Game32LogicController.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32LogicController.as
+END
+IElement.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IElement.as
+END
+Game32BulletEffect.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32BulletEffect.as
+END
+IPlayer.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IPlayer.as
+END
+IPropItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IPropItem.as
+END
+Game32EnemyList.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32EnemyList.as
+END
+IWall.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IWall.as
+END
+IModel.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/kings_client/!svn/ver/27215/trunk/Module_Game/src/com/king/module/game/game_32/IModel.as
+END
+Game32PropList.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32PropList.as
+END
+Game32Enemy.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32Enemy.as
+END
+Game32StartPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/kings_client/!svn/ver/27225/trunk/Module_Game/src/com/king/module/game/game_32/Game32StartPanel.as
+END

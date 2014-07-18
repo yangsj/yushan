@@ -1,0 +1,34 @@
+package com.king.module.game.game_32
+{
+	import flash.display.Sprite;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-7-1
+	 */
+	public class Game32PlayerHost extends Game32Model implements IElement
+	{
+		public function Game32PlayerHost()
+		{
+			uiRes = new UI_V_GamePlayerHostSkin();
+			addChild( uiRes );
+			
+			setPos( ( Game32ConstType.ROW - 1 ) * 0.5 * Game32ConstType.WIDTH, (Game32ConstType.COL - 1.5 ) * Game32ConstType.HEIGHT );
+		}
+		
+		override public function updatePos():void { }
+		
+		override public function get isEdge():Boolean
+		{
+			return true;
+		}
+		
+		override public function get modelType():int
+		{
+			return Game32ConstType.HOST;
+		}
+		
+	}
+}

@@ -1,0 +1,74 @@
+package com.king.module.game.game_32
+{
+	import flash.display.Sprite;
+	
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32WalllMaterial extends Game32Model implements IWall
+	{
+		
+		public function Game32WalllMaterial( type:int = 1 )
+		{
+			super( type );
+		}
+		
+		override protected function initParams():void
+		{
+			uiRes = new UI_V_GameWallMaterial();
+			addChild( uiRes );
+			
+			uiRes.width = Game32ConstType.WIDTH;
+			uiRes.height = Game32ConstType.HEIGHT;
+			
+			totalHp = 4;
+		}
+		
+		override public function dispose():void
+		{
+			DisplayUtil.removeFromParent( this );
+			super.dispose();
+		}
+		
+		override public function injured(hp:int):void
+		{
+			if ( type == 1 )
+			{
+				super.injured( hp );
+			}
+		}
+		
+		override public function updatePos():void {}
+
+		override public function set type(value:int):void
+		{
+			_type = value;
+			if ( uiRes ) uiRes.gotoAndStop( type );
+		}
+
+		override public function get isEdge():Boolean
+		{
+			return false;
+		}
+
+		override public function get modelType():int
+		{
+			return Game32ConstType.WALL;
+		}
+		
+		///////////////////////////////////////////////////
+		
+		public static function create( type:int, sx:Number, sy:Number ):Game32WalllMaterial
+		{
+			var wall:Game32WalllMaterial = new Game32WalllMaterial( type );
+			wall.setPos( sx, sy );
+			return wall;
+		}
+
+	}
+}

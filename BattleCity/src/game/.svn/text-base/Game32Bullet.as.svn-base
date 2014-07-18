@@ -1,0 +1,88 @@
+package com.king.module.game.game_32
+{
+	import flash.display.MovieClip;
+	import flash.display.Sprite;
+	
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32Bullet extends Game32Model implements IBullet
+	{
+		private var _isPlayer:Boolean;
+		
+		public function Game32Bullet( isPlayer:Boolean, bulletType:int = 1, direction:int = 0 )
+		{
+			uiRes = new UI_V_GameBulletSkin();
+			addChild( uiRes );
+			super( bulletType, direction );
+			
+			_isPlayer = isPlayer;
+			speed = 10;
+		}
+		
+		override public function updatePos():void
+		{
+			if ( _isDispose == false )
+			{
+				switch( direction )
+				{
+					case Game32ConstType.UP:
+						y -= speed;
+						break;
+					case Game32ConstType.RIGHT:
+						x += speed;
+						break;
+					case Game32ConstType.DOWN:
+						y += speed;
+						break;
+					case Game32ConstType.LEFT:
+						x -= speed;
+						break;
+					default:
+						break;
+				}
+				
+				var tw:Number = Game32ConstType.WIDTH;
+				var th:Number = Game32ConstType.HEIGHT;
+				if ( x < -tw || y < -th || th * Game32ConstType.COL < y || Game32ConstType.ROW * tw < x )
+				{
+					_isDispose = true;
+				}
+			}
+		}
+		
+		public function isRemoveByModelType( model:int ):Boolean
+		{
+			return !( ( isPlayer && model == Game32ConstType.PLAYER ) || ( !isPlayer && model == Game32ConstType.ENEMY ));
+		}
+		
+		override public function get attackHp():int
+		{
+			return isPlayer ? 4 : 2;
+		}
+		
+		override public function injured( hp:int ):void { }
+		
+		public function get isPlayer():Boolean
+		{
+			return _isPlayer;
+		}
+		
+		override public function set type(value:int):void
+		{
+			super.type = value;
+			if ( uiRes ) uiRes.gotoAndStop( type );
+		}
+		
+		override public function get modelType():int
+		{
+			return Game32ConstType.BULLET;
+		}
+		
+	}
+}

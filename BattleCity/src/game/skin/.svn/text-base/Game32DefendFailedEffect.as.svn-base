@@ -1,0 +1,42 @@
+package com.king.module.game.game_32.skin
+{
+	import com.king.core.manager.AnimationManager;
+	import com.king.module.game.game_32.calls;
+	
+	import flash.display.MovieClip;
+	import flash.display.Sprite;
+	
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-7-2
+	 */
+	public class Game32DefendFailedEffect extends Sprite
+	{
+		private var callBackFunc:Function;
+		
+		private var uiRes:MovieClip;
+		
+		public function Game32DefendFailedEffect( callBack:Function )
+		{
+			callBackFunc = callBack;
+			
+			uiRes = new UI_V_GameDefendFailedEffect();
+			uiRes.x = 348.75;
+			uiRes.y = 195.75;
+			addChild( uiRes );
+			
+			AnimationManager.playFrameAnimate( uiRes, 0, "", onComplete );
+		}
+		
+		private function onComplete():void
+		{
+			DisplayUtil.removeFromParent( this );
+			calls( callBackFunc );
+			callBackFunc = null;
+		}
+	}
+}

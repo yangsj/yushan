@@ -1,0 +1,213 @@
+package com.king.module.game.game_32
+{
+	import flash.display.DisplayObject;
+	import flash.display.Sprite;
+	import flash.geom.Point;
+	
+	import gs.TweenLite;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32Player extends Game32Model implements IPlayer
+	{
+		private var _isKeyDown:Boolean;
+		
+		private var isCooling:Boolean = false;
+		private var isTweening:Boolean = false;
+		
+		public function Game32Player()
+		{	
+			super();
+		}
+		
+		override protected function initParams():void
+		{
+			uiRes = new UI_V_GameSelfModelSkin();
+			addChild( uiRes );
+			resurgence();
+		}
+		
+		public function resurgence():void
+		{
+			_isDeath = false;
+			_isDispose = false;
+			isCooling = false;
+			isTweening = false;
+			speed = 4;
+			totalHp = 100;
+			setPos( 7 * Game32ConstType.WIDTH, 11 * Game32ConstType.HEIGHT );
+		}
+		
+		public function setPropType( propType:int, func:Function ):void
+		{
+		}
+		
+		override public function dispose():void
+		{
+			super.dispose();
+		}
+		
+		public function shoot():void
+		{
+			
+			if ( isCooling == false )
+			{
+				isCooling = true;
+				
+				var bullet:Game32Bullet = new Game32Bullet( true, 1, direction );
+				if ( this.parent )
+				{
+					var w:Number = Game32ConstType.WIDTH * 0.5;
+					var h:Number = Game32ConstType.HEIGHT * 0.5;
+					bullet.x = isUp || isDown ? x : ( isLeft ? x - w : x + w );
+					bullet.y = isLeft || isRight ? y : ( isUp ? y - h : y + h );
+					this.parent.addChild( bullet );
+				}
+				
+				TweenLite.delayedCall( 1, shoot );
+				TweenLite.delayedCall( 0.5, function():void
+				{
+					isCooling = false;
+				});
+			}
+		}
+		
+		public function stopShoot():void
+		{
+			TweenLite.killDelayedCallsTo( shoot );
+		}
+		
+		public function adjustMove():void
+		{
+			var tw:Number = Game32ConstType.WIDTH;
+			var th:Number = Game32ConstType.HEIGHT;
+			var tx:Number = tw * row;
+			var ty:Number = th * col;
+			var time:Number = 0;
+			var dist:Number = 0;
+			var endPos:Point = new Point(tx, ty);
+			switch ( direction )
+			{
+				case Game32ConstType.UP:
+					if ( ty < y )
+					{
+						dist = Math.abs( endPos.y - y );
+					}
+					break;
+				case Game32ConstType.DOWN:
+					if ( ty > y )
+					{
+						endPos.y = th * nextCol;
+						dist = Math.abs( endPos.y - y );
+					}
+					break;
+				case Game32ConstType.LEFT:
+					if ( tx < x ) 
+					{
+						dist = Math.abs( endPos.x - x );
+					}
+					break;
+				case Game32ConstType.RIGHT:
+					if ( tx < x )
+					{
+						endPos.x = tw * nextRow;
+						dist = Math.abs( endPos.x - x );
+					}
+					break;
+			}
+			isTweening = false;
+			if ( dist != 0 )
+			{
+				isTweening = true;
+				time = ( dist / 24 ) / speed;
+				TweenLite.to( this, time, { x:endPos.x, y:endPos.y, onComplete:function():void
+					{
+						isTweening = false;
+					} } );
+			}
+		}
+		
+		override public function updatePos():void
+		{
+			if ( _isKeyDown && isTweening == false )
+			{
+				super.updatePos();
+				
+			}
+		}
+		
+		override public function get nextCol():int 
+		{
+			switch( direction )
+			{
+				case Game32ConstType.UP:
+					return col - 1;
+				case Game32ConstType.DOWN:
+					return col + 1;
+				default:
+					break;
+			}
+			return col;
+		}
+		
+		override public function get nextRow():int
+		{
+			switch( direction )
+			{
+				case Game32ConstType.LEFT:
+					return row - 1;
+				case Game32ConstType.RIGHT:
+					return row + 1;
+				default:
+					break;
+			}
+			return row;
+		}
+		
+		override public function get modelType():int
+		{
+			return Game32ConstType.PLAYER;
+		}
+		
+		override public function get attackHp():int
+		{
+			return 2;
+		}
+		
+		override public function set direction(value:int):void
+		{
+			if ( !isTweening ) 
+			{
+				super.direction = value;
+			}
+		}
+		
+		override public function get hitTarget():DisplayObject
+		{
+			if ( _hitTarget == null )
+			{
+				var sp:Sprite = new Sprite();
+				sp.graphics.beginFill( 0, 0 );
+				sp.graphics.drawCircle( 0, 0, Game32ConstType.WIDTH * 0.3 );
+				sp.graphics.endFill();
+				_hitTarget = sp;
+			}
+			return _hitTarget;
+		}
+
+		public function get isKeyDown():Boolean
+		{
+			return _isKeyDown;
+		}
+
+		public function set isKeyDown(value:Boolean):void
+		{
+			_isKeyDown = value;
+		}
+
+	}
+}

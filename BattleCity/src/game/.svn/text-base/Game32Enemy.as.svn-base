@@ -1,0 +1,124 @@
+package com.king.module.game.game_32
+{
+	import flash.display.Sprite;
+	
+	import gs.TweenLite;
+	
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-6-30
+	 */
+	public class Game32Enemy extends Game32Model implements IEnemy
+	{
+		private var isStart:Boolean = true;
+		
+		public function Game32Enemy( type:int, direction:int = 0 )
+		{
+			super( type, direction );
+		}
+		
+		override protected function initParams():void
+		{	
+			uiRes = new UI_V_GameEnemySkin();
+			addChild( uiRes );
+			
+			totalHp = 8;
+			isStart = true;
+			
+			TweenLite.delayedCall( 3, shoot );
+			TweenLite.delayedCall( 5, changeDirection );
+		}
+		
+		private function shoot():void
+		{
+			var bullet:Game32Bullet = new Game32Bullet( false, 1, direction );
+			if ( this.parent )
+			{
+				var w:Number = Game32ConstType.WIDTH * 0.5;
+				var h:Number = Game32ConstType.HEIGHT * 0.5;
+				bullet.x = isUp || isDown ? x : ( isLeft ? x - w : x + w );
+				bullet.y = isLeft || isRight ? y : ( isUp ? y - h : y + h );
+				this.parent.addChild( bullet );
+			}
+			
+			TweenLite.delayedCall( Math.random() * 5 + 5, shoot );
+		}
+		
+		public function changeDirection():void
+		{
+			direction = Game32ConstType.getRandomDirection( direction );
+			TweenLite.killDelayedCallsTo( changeDirection );
+			TweenLite.delayedCall( Math.random() * 4 + 4, changeDirection );
+		}
+		
+		public function startAction():void
+		{
+			if ( isStart == false )
+			{
+				isStart = true;
+				TweenLite.delayedCall( Math.random() * 5 + 5, shoot );
+				TweenLite.delayedCall( Math.random() * 4 + 4, changeDirection );
+			}
+		}
+		
+		public function stopAction():void
+		{
+			if ( isStart )
+			{
+				isStart = false;
+				TweenLite.killDelayedCallsTo( shoot );
+				TweenLite.killDelayedCallsTo( changeDirection );
+			}
+		}
+		
+		override public function updatePos():void
+		{
+			if ( isStart )
+			{
+				super.updatePos();
+				if ( uiRes )
+					uiRes.rotation = 90 * direction;
+			}
+		}
+		
+		override public function dispose():void
+		{
+			TweenLite.killDelayedCallsTo( changeDirection );
+			TweenLite.killDelayedCallsTo( shoot );
+			super.dispose();
+		}
+		
+		override public function set direction(value:int):void
+		{
+			_direction = value;
+		}
+		
+		override public function set type(value:int):void
+		{
+			_type = value;
+			if ( uiRes ) uiRes.gotoAndStop( type );
+		}
+		
+		override public function get modelType():int
+		{
+			return Game32ConstType.ENEMY;
+		}
+		
+		override public function get attackHp():int
+		{
+			return [1,2,3,4,5,6,7,8,9][type];
+		}
+		
+		public function get score():int
+		{
+			return 100 * type;
+			return [10,20,30,40,50,60,70,80,90][type];
+		}
+
+		
+	}
+}

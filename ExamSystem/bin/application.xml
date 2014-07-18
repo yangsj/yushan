@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<!-- 版本号 -->
+	<app version="2014-03-17 12:27:22 v.2"/>
+	
+	<!-- id:用于获取资源src的名称(和文件名称保持一致) -->
+	<!-- src:资源路径 -->
+	<!-- version:资源版本控制 -->
+	<!-- first:是否登陆加载（1第1阶段加载/2登陆加载/0非登陆加载用时加载） -->
+	
+	<!-- 第一阶段加载 -->
+	<asset id="ui_component" src="assets/ui_component.swf" first="1"/>
+	<asset id="ui_login" src="assets/ui_login.swf" first="1"/>
+	<asset id="ui_register" src="assets/ui_register.swf" first="1"/>
+	
+	<!-- 第二阶段加载 -->
+	<asset id="ui_map" src="assets/ui_map.swf" first="2"/>
+	<asset id="ui_main" src="assets/ui_main.swf" first="2"/>
+	<asset id="ui_chat" src="assets/ui_chat.swf" first="2"/>
+	<asset id="ui_number" src="assets/ui_number.swf" first="2"/>
+	
+	<!-- 以下部分为用时加载 -->
+	
+	<!-- 测试资源 -->
+	<asset id="testPanel" src="assets/testPanel.swf" first="0"/>
+	
+	<!-- 地图资源 -->
+	<asset id="map_chapter_list" src="assets/map_chapter_list.swf" first="0"/>
+	<asset id="map_chapter_bg" src="assets/map_chapter_bg.swf" first="0"/>
+	
+	<!-- 好友 -->
+	<asset id="ui_friend" src="assets/ui_friend.swf" first="0"/>
+	
+	<!-- 任务 -->
+	<asset id="ui_task" src="assets/ui_task.swf" first="0"/>
+	
+	<!-- 排行榜 -->
+	<asset id="ui_Ranking" src="assets/ui_Ranking.swf" first="0"/>
+	
+	<!-- 個人信息 -->
+	<asset id="ui_Personal" src="assets/ui_Personal.swf" first="0"/>
+	
+	<!-- 微博分享 -->
+	<asset id="ui_share_weibo" src="assets/ui_share_weibo.swf" first="0"/>
+	
+	<!-- 道具 -->
+	<asset id="ui_prop_list" src="assets/ui_prop_list.swf" first="0"/>
+	
+	<!-- 战斗部分 -->
+	<asset id="ui_fight" src="assets/ui_fight.swf" first="0"/>
+	<asset id="ui_round_losePanel" src="assets/ui_round_losePanel.swf" first="0"/>
+	<asset id="ui_round_winPanel" src="assets/ui_round_winPanel.swf" first="0"/>
+	<asset id="ui_ready" src="assets/ui_ready.swf" first="0"/>
+	<asset id="ui_matching" src="assets/ui_matching.swf" first="0"/>
+	<asset id="ui_fight_search" src="assets/ui_fight_search.swf" first="0"/>
+	<asset id="ui_fight_friend_search" src="assets/ui_fight_friend_search.swf" first="0"/>
+	<asset id="ui_fight_online_result" src="assets/ui_fight_online_result.swf" first="0"/>
+	<asset id="ui_fight_error" src="assets/ui_fight_error.swf" first="0"/>
+	
+	<!-- sounds -->
+	<asset id="sound_effect" src="assets/sound_effect.swf" first="2"/>
+	<asset id="main_bg" src="sound/main_bg.mp3" first="0"/>
+	<asset id="fight_bg_0" src="sound/fight_bg_0.mp3" first="0"/>
+	<asset id="fight_bg_1" src="sound/fight_bg_1.mp3" first="0"/>
+	
+	<!-- png 配置 -->
+	<asset id="exclamatory_xml" src="png/exclamatory_xml.xml" first="2"/>
+	<asset id="exclamatory_png" src="png/exclamatory_png.png" first="2"/>
+	
+</data>

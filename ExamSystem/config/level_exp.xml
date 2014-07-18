@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<!-- level:等级 -->
+	<!-- cur_exp:当前等级的初始值 -->
+	<!-- next_exp:下一级的初始值 -->
+	<item level="1" cur_exp="0" next_exp="120" />
+	<item level="2" cur_exp="120" next_exp="390" />
+	<item level="3" cur_exp="390" next_exp="840" />
+	<item level="4" cur_exp="840" next_exp="1500" />
+	<item level="5" cur_exp="1500" next_exp="2400" />
+	<item level="6" cur_exp="2400" next_exp="3570" />
+	<item level="7" cur_exp="3570" next_exp="5040" />
+	<item level="8" cur_exp="5040" next_exp="6915" />
+	<item level="9" cur_exp="6915" next_exp="9235" />
+	<item level="10" cur_exp="9235" next_exp="12040" />
+	<item level="11" cur_exp="12040" next_exp="15370" />
+	<item level="12" cur_exp="15370" next_exp="19170" />
+	<item level="13" cur_exp="19170" next_exp="23220" />
+	<item level="14" cur_exp="23220" next_exp="27525" />
+	<item level="15" cur_exp="27525" next_exp="32090" />
+	<item level="16" cur_exp="32090" next_exp="36920" />
+	<item level="17" cur_exp="36920" next_exp="42020" />
+	<item level="18" cur_exp="42020" next_exp="47395" />
+	<item level="19" cur_exp="47395" next_exp="53050" />
+	<item level="20" cur_exp="53050" next_exp="58990" />
+	<item level="21" cur_exp="58990" next_exp="65220" />
+	<item level="22" cur_exp="65220" next_exp="71745" />
+	<item level="23" cur_exp="71745" next_exp="79245" />
+	<item level="24" cur_exp="79245" next_exp="87770" />
+	<item level="25" cur_exp="87770" next_exp="97370" />
+	<item level="26" cur_exp="97370" next_exp="108095" />
+	<item level="27" cur_exp="108095" next_exp="119995" />
+	<item level="28" cur_exp="119995" next_exp="133120" />
+	<item level="29" cur_exp="133120" next_exp="147520" />
+	<item level="30" cur_exp="147520" next_exp="163245" />
+	<item level="31" cur_exp="163245" next_exp="179245" />
+	<item level="32" cur_exp="179245" next_exp="196045" />
+	<item level="33" cur_exp="196045" next_exp="214745" />
+	<item level="34" cur_exp="214745" next_exp="235445" />
+	<item level="35" cur_exp="235445" next_exp="258245" />
+	<item level="36" cur_exp="258245" next_exp="282645" />
+	<item level="37" cur_exp="282645" next_exp="308685" />
+	<item level="38" cur_exp="308685" next_exp="336405" />
+	<item level="39" cur_exp="336405" next_exp="365845" />
+	<item level="40" cur_exp="365845" next_exp="397045" />
+	<item level="41" cur_exp="397045" next_exp="430045" />
+	<item level="42" cur_exp="430045" next_exp="464885" />
+	<item level="43" cur_exp="464885" next_exp="501605" />
+	<item level="44" cur_exp="501605" next_exp="540245" />
+	<item level="45" cur_exp="540245" next_exp="580845" />
+	<item level="46" cur_exp="580845" next_exp="623445" />
+	<item level="47" cur_exp="623445" next_exp="668085" />
+	<item level="48" cur_exp="668085" next_exp="714805" />
+	<item level="49" cur_exp="714805" next_exp="763645" />
+	<item level="50" cur_exp="763645" next_exp="814645" />
+	<item level="51" cur_exp="814645" next_exp="935645" />
+	<item level="52" cur_exp="935645" next_exp="1067895" />
+	<item level="53" cur_exp="1067895" next_exp="1211895" />
+	<item level="54" cur_exp="1211895" next_exp="1368145" />
+	<item level="55" cur_exp="1368145" next_exp="1537145" />
+	<item level="56" cur_exp="1537145" next_exp="1719395" />
+	<item level="57" cur_exp="1719395" next_exp="1915395" />
+	<item level="58" cur_exp="1915395" next_exp="2125645" />
+	<item level="59" cur_exp="2125645" next_exp="2350645" />
+	<item level="60" cur_exp="2350645" next_exp="2590895" />
+</data>

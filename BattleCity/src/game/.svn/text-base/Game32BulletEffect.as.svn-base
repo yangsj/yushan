@@ -1,0 +1,41 @@
+package com.king.module.game.game_32
+{
+	import com.king.core.manager.AnimationManager;
+	
+	import flash.display.MovieClip;
+	import flash.display.Sprite;
+	
+	import org.JLibrary.utils.DisplayUtil;
+	
+	
+	/**
+	 * 
+	 * @author victor
+	 * 			2014-7-3
+	 */
+	public class Game32BulletEffect extends Sprite
+	{
+		private var uiRes:Sprite;
+		
+		public function Game32BulletEffect( type:int = 1 )
+		{
+			if ( type == Game32ConstType.BULLET_1 )
+				uiRes = new UI_V_GameBulletEffect_1();
+			else uiRes = new UI_V_GameBulletEffect_2();
+			addChild( uiRes );
+			
+			AnimationManager.playFrameAnimate( uiRes["mc"], 0, "", onComplete );
+		}
+		
+		public function setPos( sx:Number, sy:Number ):void
+		{
+			x = sx;
+			y = sy;
+		}
+		
+		private function onComplete():void
+		{
+			DisplayUtil.removeFromParent( this );
+		}
+	}
+}
