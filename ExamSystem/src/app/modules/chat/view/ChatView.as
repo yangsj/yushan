@@ -9,14 +9,12 @@ package app.modules.chat.view
 	import flash.events.FocusEvent;
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
-	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 	import flash.text.TextFormat;
 	import flash.ui.Keyboard;
 	
 	import app.GameConfig;
 	import app.Language;
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.data.PlayerBaseVo;
 	import app.modules.chat.ChatChannelType;
@@ -25,18 +23,19 @@ package app.modules.chat.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.core.TabButtonControl;
-	import victor.core.scroll.ScrollBar;
-	import victor.framework.core.BaseView;
-	import victor.framework.core.ViewStruct;
-	import victor.framework.manager.LoaderManager;
-	import victor.utils.StringUitl;
-	import victor.utils.apps;
-
+	import net.victoryang.components.Tips;
+	import net.victoryang.components.scroll.ScrollBar;
+	import net.victoryang.core.TabButtons;
+	import net.victoryang.framework.BaseView;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.apps;
+	import net.victoryang.managers.LoaderManager;
+	import net.victoryang.uitl.StringUitl;
+	
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-6
 	 */
 	public class ChatView extends BaseView
@@ -58,7 +57,7 @@ package app.modules.chat.view
 		//隐藏展开(1帧收藏、2帧展开
 		public var btnExpandHide:MovieClip;
 
-		private var tabControl:TabButtonControl;
+		private var tabControl:TabButtons;
 
 		private var txtOutput:RichTextField;
 		private var txtInput:RichTextField;
@@ -236,7 +235,7 @@ package app.modules.chat.view
 
 		override protected function onceInit():void
 		{
-			tabControl = new TabButtonControl( channelChangeHandler );
+			tabControl = new TabButtons( channelChangeHandler );
 			tabControl.addMultiTargets( tabWorld, tabPrivate );
 
 			var txtFormat:TextFormat = new TextFormat( "微软雅黑", 12, 0xFFFFFF, false, false, false );

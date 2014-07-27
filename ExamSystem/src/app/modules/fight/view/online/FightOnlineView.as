@@ -6,19 +6,20 @@ package app.modules.fight.view.online
 	import flash.text.TextField;
 	import flash.utils.Dictionary;
 	
-	import app.core.Tips;
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.model.LetterBubbleVo;
 	import app.modules.fight.view.FightBaseView;
 	import app.modules.fight.view.item.LetterBubble;
 	import app.modules.model.vo.ItemType;
 	
-	import victor.framework.debug.Debug;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.components.Tips;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.func.removedAllChildren;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class FightOnlineView extends FightBaseView
@@ -126,7 +127,7 @@ package app.modules.fight.view.online
 		{
 			points = [[40.25, 44.5],[110.15, 44.5],[180.05, 44.5],[249.95, 44.5],[319.85, 44.5],[389.75, 44.5],[54, 106.7],[118.4, 106.7],[182.8, 106.7],[247.25, 106.7],[311.6, 106.7],[376, 106.7],[40.25, 168.9],[103.65, 168.9],[167.05, 168.9],[230.45, 168.9],[293.85, 168.9],[357.25, 168.9],[72.75, 231.1],[136.15, 231.1],[199.55, 231.1],[262.95, 231.1],[326.35, 231.1],[389.75, 231.1],[56.5, 355.5],[119.9, 355.5],[183.3, 355.5],[246.7, 355.5],[310.1, 355.5],[373.5, 355.5],[40.25, 293.3],[110.15, 293.3],[180.05, 293.3],[249.95, 293.3],[319.85, 293.3],[389.75, 293.3]];
 			var dict:Dictionary = new Dictionary();
-			removeAllChildren( con, false );
+			removedAllChildren( con, false );
 			var key:String;
 			var bubble:LetterBubble;
 			var point:Array;

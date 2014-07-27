@@ -3,11 +3,11 @@ package app.modules.friend.model
 	import app.modules.friend.event.FriendEvent;
 	
 	import org.robotlegs.mvcs.Actor;
-
+	
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-6
 	 */
 	public class FriendModel extends Actor

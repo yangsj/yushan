@@ -7,13 +7,12 @@ package victor.framework.socket
 	import flash.utils.Dictionary;
 	import flash.utils.getTimer;
 	
+	import net.victoryang.deubg.Debug;
+	
 	import org.apache.thrift.FFUtil;
 	
-	import victor.framework.debug.Debug;
-
-
 	/**
-	 * @author fireyang
+	 * @author victor
 	 */
 	public class MessageSocket extends SocketBase implements ISocketManager
 	{

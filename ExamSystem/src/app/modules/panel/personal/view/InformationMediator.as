@@ -7,12 +7,12 @@ package app.modules.panel.personal.view
 	import app.modules.panel.personal.events.PersonalEvent;
 	import app.modules.panel.personal.service.PersonalService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-3
 	 */
 	public class InformationMediator extends BaseMediator

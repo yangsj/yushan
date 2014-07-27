@@ -2,16 +2,17 @@ package app.modules.fight.view.item
 {
 	import flash.geom.Point;
 	
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.func.removedFromParent;
+	
 	import victor.core.AnimationClip;
-	import victor.framework.core.BaseSprite;
-	import victor.framework.core.ViewStruct;
-	import victor.utils.removeAllChildren;
-	import victor.utils.removedFromParent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-30
 	 */
 	public class BubbleRemovedEffect extends BaseSprite
@@ -37,7 +38,7 @@ package app.modules.fight.view.item
 		
 		private function playComplete():void
 		{
-			removeAllChildren( this );
+			removedAllChildren( this );
 			removedFromParent( this );
 		}
 	}

@@ -25,7 +25,7 @@ package app.modules.map.service
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-22
 	 */
 	public class MapService extends BaseService

@@ -11,10 +11,10 @@ package victor.framework.socket
 	import flash.utils.Endian;
 	import flash.utils.getTimer;
 	
-	import victor.framework.debug.Debug;
-
+	import net.victoryang.deubg.Debug;
+	
 	/**
-	 * @author fireyang
+	 * @author victor
 	 */
 	public class SocketBase extends EventDispatcher
 	{

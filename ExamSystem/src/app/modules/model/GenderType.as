@@ -3,7 +3,7 @@ package app.modules.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-19
 	 */
 	public class GenderType

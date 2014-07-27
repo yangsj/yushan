@@ -5,13 +5,13 @@ package app.modules.panel.personal.view
 	import app.modules.panel.personal.model.PersonalModel;
 	import app.modules.panel.personal.service.PersonalService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.events.PanelEvent;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-30
 	 */
 	public class ErrorListMediator extends BaseMediator

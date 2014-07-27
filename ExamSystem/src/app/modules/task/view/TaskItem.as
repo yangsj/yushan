@@ -12,17 +12,18 @@ package app.modules.task.view
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.core.Text;
-	import app.core.Tips;
 	import app.modules.task.event.TaskEvent;
 	import app.modules.task.model.TaskVo;
 	
-	import victor.framework.core.BaseSprite;
-	import victor.utils.removedFromParent;
+	import net.victoryang.components.Text;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.removedFromParent;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-5
 	 */
 	public class TaskItem extends BaseSprite

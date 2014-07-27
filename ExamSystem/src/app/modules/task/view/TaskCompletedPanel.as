@@ -6,20 +6,21 @@ package app.modules.task.view
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	
-	import app.base.BasePanel;
 	import app.modules.fight.view.prop.item.PropItem;
 	import app.modules.model.vo.ItemVo;
 	import app.modules.task.event.TaskEvent;
 	import app.modules.task.model.TaskVo;
 	import app.modules.util.Num;
 	
-	import victor.utils.UtilsFilter;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.uitl.UtilsFilter;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-22
 	 */
 	public class TaskCompletedPanel extends BasePanel
@@ -63,7 +64,7 @@ package app.modules.task.view
 		
 		private function createPropList():void
 		{
-			removeAllChildren( propListContainer );
+			removedAllChildren( propListContainer );
 			var item:PropItem;
 			var taskVo:TaskVo = data as TaskVo;
 			btnTake.mouseEnabled = false;
@@ -81,8 +82,8 @@ package app.modules.task.view
 					propListContainer.addChild( item );
 				}
 				
-				removeAllChildren( conExpNum );
-				removeAllChildren( conMoneyNum );
+				removedAllChildren( conExpNum );
+				removedAllChildren( conMoneyNum );
 				
 				var shapeNum:Shape = Num.getShape( taskVo.rewardExp );
 				shapeNum.y = -shapeNum.height * 0.5;

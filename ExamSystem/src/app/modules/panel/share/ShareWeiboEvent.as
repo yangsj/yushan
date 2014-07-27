@@ -1,11 +1,10 @@
 package app.modules.panel.share
 {
-	import victor.framework.events.BaseEvent;
-	
+	import net.victoryang.events.BaseEvent;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-13
 	 */
 	public class ShareWeiboEvent extends BaseEvent

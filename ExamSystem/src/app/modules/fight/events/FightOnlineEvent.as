@@ -1,11 +1,11 @@
 package app.modules.fight.events
 {
-	import victor.framework.events.BaseEvent;
+	import net.victoryang.events.BaseEvent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-21
 	 */
 	public class FightOnlineEvent extends BaseEvent

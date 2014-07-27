@@ -2,12 +2,9 @@ package app.managers
 {
 	import flash.text.Font;
 	
-	import victor.framework.debug.Debug;
-	import victor.framework.manager.LoaderManager;
-	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-9
 	 */
 	public class FontManager

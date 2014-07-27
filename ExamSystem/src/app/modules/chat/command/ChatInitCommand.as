@@ -6,12 +6,12 @@ package app.modules.chat.command
 	import app.modules.chat.view.ChatMediator;
 	import app.modules.chat.view.ChatView;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class ChatInitCommand extends BaseCommand

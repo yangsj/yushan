@@ -3,7 +3,7 @@ package app
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class Language

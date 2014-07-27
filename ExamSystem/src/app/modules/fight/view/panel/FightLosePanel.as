@@ -1,13 +1,9 @@
 package app.modules.fight.view.panel
 {
-	import flash.text.TextField;
-	
-	import app.core.Text;
-	import app.modules.fight.model.FightEndVo;
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-28
 	 */
 	public class FightLosePanel extends FightResultBasePanel

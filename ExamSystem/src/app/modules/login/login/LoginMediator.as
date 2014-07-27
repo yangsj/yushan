@@ -1,16 +1,16 @@
 package app.modules.login.login
 {
 	import app.managers.ExternalManager;
-	import app.modules.ViewName;
 	import app.modules.login.login.event.LoginEvent;
 	import app.modules.login.service.LoginService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class LoginMediator extends BaseMediator

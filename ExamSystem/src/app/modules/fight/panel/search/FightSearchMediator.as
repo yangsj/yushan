@@ -5,12 +5,13 @@ package app.modules.fight.panel.search
 	import app.modules.friend.model.FriendModel;
 	import app.modules.friend.model.FriendVo;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightSearchMediator extends BaseMediator

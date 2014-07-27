@@ -1,6 +1,5 @@
 package app.modules.friend.view
 {
-	import app.core.Tips;
 	import app.modules.chat.model.ChatModel;
 	import app.modules.fight.service.FightOnlineService;
 	import app.modules.friend.event.FriendEvent;
@@ -8,12 +7,13 @@ package app.modules.friend.view
 	import app.modules.friend.model.FriendVo;
 	import app.modules.friend.service.FriendService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class FriendMdiator extends BaseMediator

@@ -3,16 +3,17 @@ package app.modules.login.command
 	import app.modules.ViewName;
 	import app.modules.main.model.MainModel;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.debug.Debug;
-	import victor.framework.events.LoadEvent;
-	import victor.framework.events.PanelEvent;
-	import victor.framework.manager.LoaderManager;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.events.LoadEvent;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseCommand;
+	import net.victoryang.managers.LoaderManager;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-9
 	 */
 	public class MainLoadCommand extends BaseCommand

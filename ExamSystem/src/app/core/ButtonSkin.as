@@ -2,11 +2,11 @@ package app.core
 {
 	import flash.display.InteractiveObject;
 	
-	import victor.framework.manager.LoaderManager;
+	import net.victoryang.managers.LoaderManager;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-31
 	 */
 	public class ButtonSkin

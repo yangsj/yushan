@@ -4,12 +4,13 @@ package app.core
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	
-	import victor.framework.interfaces.IDisposable;
-	import victor.framework.manager.TickManager;
+	import net.victoryang.interfaces.IDisposable;
+	import net.victoryang.managers.TickManager;
+	
 	
 	/**
 	 * ……按指定的帧频播放MovieClip元件动画
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-26
 	 */
 	public class FrameAnimation implements IDisposable

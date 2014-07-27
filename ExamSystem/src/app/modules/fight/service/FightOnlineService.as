@@ -1,8 +1,5 @@
 package app.modules.fight.service
 {
-	import app.core.Alert;
-	import app.core.Tips;
-	import app.data.GameData;
 	import app.modules.LoadingEffect;
 	import app.modules.ViewName;
 	import app.modules.fight.events.FightOnlineEvent;
@@ -31,14 +28,16 @@ package app.modules.fight.service
 	import ff.server_cmd_e;
 	import ff.user_status_ret_t;
 	
+	import net.victoryang.components.Tips;
+	import net.victoryang.events.PanelEvent;
+	
 	import victor.framework.core.BaseService;
-	import victor.framework.events.PanelEvent;
 	import victor.framework.socket.SocketResp;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-19
 	 */
 	public class FightOnlineService extends BaseService

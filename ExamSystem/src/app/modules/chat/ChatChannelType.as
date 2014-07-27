@@ -3,7 +3,7 @@ package app.modules.chat
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-9
 	 */
 	public class ChatChannelType

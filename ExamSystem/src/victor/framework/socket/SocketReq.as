@@ -1,7 +1,7 @@
 package victor.framework.socket {
 
     /**
-     * @author fireyang
+     * @author victor
      */
     public class SocketReq {
         // 发送对象

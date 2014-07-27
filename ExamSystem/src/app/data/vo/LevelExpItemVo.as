@@ -4,7 +4,7 @@ package app.data.vo
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-24
 	 */
 	public class LevelExpItemVo

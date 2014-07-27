@@ -6,12 +6,12 @@ package app.modules.panel.rank.command
 	import app.modules.panel.rank.view.RankMediator;
 	import app.modules.panel.rank.view.RankView;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class RankInitCommand extends BaseCommand

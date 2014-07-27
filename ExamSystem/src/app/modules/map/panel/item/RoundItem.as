@@ -4,16 +4,17 @@ package app.modules.map.panel.item
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.core.Tips;
 	import app.modules.map.main.item.MapItemBase;
 	import app.modules.map.model.RoundVo;
 	import app.modules.map.panel.event.SelectedRoundEvent;
 	
-	import victor.core.Reflection;
+	import net.victoryang.components.Tips;
+	import net.victoryang.core.Reflection;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-25
 	 */
 	public class RoundItem extends MapItemBase

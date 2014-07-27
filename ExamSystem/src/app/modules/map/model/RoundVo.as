@@ -3,7 +3,7 @@ package app.modules.map.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-22
 	 */
 	public class RoundVo

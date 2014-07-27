@@ -4,12 +4,12 @@ package app.modules.task.view
 	import app.modules.task.model.TaskVo;
 	import app.modules.task.service.TaskService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-22
 	 */
 	public class TaskCompletedMediator extends BaseMediator

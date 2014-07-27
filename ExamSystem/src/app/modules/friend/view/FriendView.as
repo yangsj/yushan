@@ -5,19 +5,18 @@ package app.modules.friend.view
 	import flash.events.MouseEvent;
 	import flash.utils.Dictionary;
 	
-	import app.base.BasePanel;
 	import app.modules.ViewName;
 	import app.modules.friend.model.FriendVo;
 	
-	import victor.core.scroll.GameScrollPanel;
-	import victor.framework.events.ViewEvent;
-	import victor.utils.DisplayUtil;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.components.scroll.ScrollPanel;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class FriendView extends BasePanel
@@ -35,7 +34,7 @@ package app.modules.friend.view
 		 */
 		public var container:MovieClip;
 		
-		protected var gameScroll:GameScrollPanel;
+		protected var gameScroll:ScrollPanel;
 		
 		protected var scrollHeight:int = 333;
 		
@@ -56,12 +55,12 @@ package app.modules.friend.view
 		{
 			if ( gameScroll == null )
 			{
-				gameScroll = new GameScrollPanel();
+				gameScroll = new ScrollPanel();
 				gameScroll.setTargetAndHeight( container, scrollHeight, 264 );
 			}
 			if ( list )
 			{
-				removeAllChildren( container );
+				removedAllChildren( container );
 				var length:int = list.length;
 				for ( var i:int = 0; i < length; i++ )
 				{

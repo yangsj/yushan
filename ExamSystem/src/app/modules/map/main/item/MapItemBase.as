@@ -6,11 +6,11 @@ package app.modules.map.main.item
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.framework.interfaces.IDisposable;
+	import net.victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-25
 	 */
 	public class MapItemBase implements IDisposable

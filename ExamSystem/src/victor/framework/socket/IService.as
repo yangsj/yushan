@@ -1,6 +1,6 @@
 package victor.framework.socket {
     /**
-     * @author fireyang
+     * @author victor
      */
     public interface IService {
     }

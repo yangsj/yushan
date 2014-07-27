@@ -1,11 +1,10 @@
 package app.events
 {
-	import victor.framework.events.BaseEvent;
-	
-	
+	import net.victoryang.events.BaseEvent;
+
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-27
 	 */
 	public class GameEvent extends BaseEvent

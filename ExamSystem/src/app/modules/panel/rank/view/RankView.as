@@ -3,24 +3,24 @@ package app.modules.panel.rank.view
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	
-	import app.base.BasePanel;
 	import app.modules.panel.rank.events.RankEvent;
 	import app.modules.panel.rank.model.RankVo;
 	
-	import victor.core.TabButtonControl;
-	import victor.core.scroll.GameScrollPanel;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.components.scroll.ScrollPanel;
+	import net.victoryang.core.TabButtons;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class RankView extends BasePanel
 	{
 		private var tabName:Array = ["周实力榜", "月实力榜", "综合实力榜", "财富榜", "丰收榜"];
-		private var tabControl:TabButtonControl;
-		private var gameScroll:GameScrollPanel;
+		private var tabControl:TabButtons;
+		private var gameScroll:ScrollPanel;
 		
 		public var listContainer:Sprite;
 		public var currentTabType:int = 0;
@@ -38,7 +38,7 @@ package app.modules.panel.rank.view
 		{
 			if ( list )
 			{
-				removeAllChildren( listContainer );
+				removedAllChildren( listContainer );
 				var i:int = 0;
 				var disty:Number = 40;
 				var item:RankItem;
@@ -57,7 +57,7 @@ package app.modules.panel.rank.view
 		
 		private function createTabButton():void
 		{
-			tabControl = new TabButtonControl( tabControlHandler );
+			tabControl = new TabButtons( tabControlHandler );
 			
 			var mc:MovieClip;
 			for ( var i:int = 0; i < 5; i++ )
@@ -78,7 +78,7 @@ package app.modules.panel.rank.view
 		{
 			super.onceInit();
 			
-			gameScroll = new GameScrollPanel();
+			gameScroll = new ScrollPanel();
 			gameScroll.setTargetAndHeight( listContainer, 205, 652 );
 			
 			createTabButton();

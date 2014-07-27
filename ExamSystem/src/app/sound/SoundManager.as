@@ -8,9 +8,9 @@ package app.sound
 	import flash.net.URLRequest;
 	import flash.utils.Dictionary;
 	
-	import victor.framework.debug.Debug;
-	import victor.framework.manager.LoaderManager;
-
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.managers.LoaderManager;
+	
 
 	public class SoundManager
 	{

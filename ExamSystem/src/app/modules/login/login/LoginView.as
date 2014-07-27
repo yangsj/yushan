@@ -1,6 +1,5 @@
 package app.modules.login.login
 {
-	import flash.display.DisplayObject;
 	import flash.display.InteractiveObject;
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -11,17 +10,17 @@ package app.modules.login.login
 	import flash.ui.Keyboard;
 	
 	import app.Language;
-	import app.core.Tips;
 	import app.modules.login.login.event.LoginEvent;
 	import app.modules.login.login.vo.LoginVo;
-	import victor.utils.apps;
 	
-	import app.base.BasePanel;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.apps;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class LoginView extends BasePanel

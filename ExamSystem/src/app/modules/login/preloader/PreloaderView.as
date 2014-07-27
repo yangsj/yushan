@@ -4,18 +4,18 @@ package app.modules.login.preloader
 	import flash.events.Event;
 	import flash.text.TextField;
 	
-	import app.core.Text;
+	import net.victoryang.components.Text;
+	import net.victoryang.events.LoadEvent;
+	import net.victoryang.framework.BaseScene;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.apps;
+	import net.victoryang.func.removedFromParent;
 	
-	import victor.framework.core.BaseScene;
-	import victor.framework.core.ViewStruct;
-	import victor.framework.events.LoadEvent;
-	import victor.utils.apps;
-	import victor.utils.removedFromParent;
 
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-8-28
 	 */
 	public class PreloaderView extends BaseScene

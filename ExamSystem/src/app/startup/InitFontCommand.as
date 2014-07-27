@@ -2,12 +2,12 @@ package app.startup
 {
 	import app.managers.FontManager;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-16
 	 */
 	public class InitFontCommand extends BaseCommand

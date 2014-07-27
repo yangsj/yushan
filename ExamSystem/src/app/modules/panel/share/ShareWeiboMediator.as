@@ -2,12 +2,12 @@ package app.modules.panel.share
 {
 	import app.managers.ExternalManager;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-13
 	 */
 	public class ShareWeiboMediator extends BaseMediator

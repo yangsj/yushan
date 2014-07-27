@@ -8,12 +8,12 @@ package app.modules.friend.view
 	
 	import app.modules.friend.event.FriendEvent;
 	
-	import app.base.BasePanel;
+	import net.victoryang.framework.BasePanel;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-23
 	 */
 	public class FriendAddView extends BasePanel

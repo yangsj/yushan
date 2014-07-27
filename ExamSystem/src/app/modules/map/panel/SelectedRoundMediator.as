@@ -1,20 +1,20 @@
 package app.modules.map.panel
 {
 	import app.core.Alert;
-	import victor.framework.events.ViewEvent;
 	import app.modules.ViewName;
 	import app.modules.map.model.MapModel;
 	import app.modules.map.model.RoundVo;
 	import app.modules.map.panel.event.SelectedRoundEvent;
 	import app.modules.map.service.MapService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.events.PanelEvent;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-22
 	 */
 	public class SelectedRoundMediator extends BaseMediator

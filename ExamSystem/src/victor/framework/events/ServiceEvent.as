@@ -1,10 +1,11 @@
 package victor.framework.events
 {
+	import net.victoryang.events.BaseEvent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-27
 	 */
 	public class ServiceEvent extends BaseEvent

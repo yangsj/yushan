@@ -16,18 +16,19 @@ package app
 	import app.startup.SetPlayerMenuCommand;
 	import app.startup.ShowLoginCommand;
 	
+	import net.victoryang.framework.BaseEntry;
+	
 	import org.robotlegs.base.ContextEvent;
 	
-	import victor.framework.core.BaseContext;
 	import victor.framework.events.ServiceEvent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-27
 	 */
-	public class AppContext extends BaseContext
+	public class AppContext extends BaseEntry
 	{
 		public function AppContext(contextView:DisplayObjectContainer=null, autoStartup:Boolean=true)
 		{

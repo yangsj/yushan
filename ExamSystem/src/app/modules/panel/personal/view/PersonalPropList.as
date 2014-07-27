@@ -10,7 +10,7 @@ package app.modules.panel.personal.view
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-30
 	 */
 	public class PersonalPropList extends Sprite

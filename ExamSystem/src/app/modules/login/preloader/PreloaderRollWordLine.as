@@ -9,17 +9,18 @@ package app.modules.login.preloader
 	import flash.text.TextField;
 	
 	import app.Language;
-	import app.core.Text;
 	
-	import victor.framework.debug.Debug;
-	import victor.framework.interfaces.IDisposable;
-	import victor.utils.BitmapUtil;
-	import victor.utils.removeAllChildren;
-	import victor.utils.removedFromParent;
+	import net.victoryang.components.Text;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.interfaces.IDisposable;
+	import net.victoryang.uitl.BitmapUtil;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class PreloaderRollWordLine extends Sprite implements IDisposable
@@ -47,20 +48,20 @@ package app.modules.login.preloader
 		public function clear():void
 		{
 			TweenMax.killDelayedCallsTo( start );
-			removeAllChildren( bitmapCon );
+			removedAllChildren( bitmapCon );
 		}
 		
 		public function dispose():void
 		{
 			clear();
 			this.mask = null;
-			removeAllChildren( this );
+			removedAllChildren( this );
 			removedFromParent( maskShape );
 		}
 		
 		public function initialize():void
 		{
-			removeAllChildren( bitmapCon );
+			removedAllChildren( bitmapCon );
 			if ( txtLine == null )
 			{
 				txtLine = Text.getText( 16, 0x0066FF, "微软雅黑", 0, 0, 500, HEIGHT);

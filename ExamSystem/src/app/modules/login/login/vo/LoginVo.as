@@ -1,10 +1,11 @@
 package app.modules.login.login.vo
 {
-	import app.managers.SharedObjectManager;
+	
+	import net.victoryang.managers.LocalStoreManager;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class LoginVo
@@ -22,7 +23,7 @@ package app.modules.login.login.vo
 		public function get accountName():String
 		{
 			if ( isRememberName )
-				return ( SharedObjectManager.getData( "accountName" ) as String ) || "";
+				return ( LocalStoreManager.getData( "accountName" ) as String ) || "";
 			return _accountName;
 		}
 
@@ -32,7 +33,7 @@ package app.modules.login.login.vo
 		public function set accountName(value:String):void
 		{
 			if ( isRememberName )
-				SharedObjectManager.setData( "accountName", value );
+				LocalStoreManager.setData( "accountName", value );
 			else _accountName = value;
 		}
 
@@ -42,7 +43,7 @@ package app.modules.login.login.vo
 		public function get password():String
 		{
 			if ( isRememberPwd && isRememberName )
-				return ( SharedObjectManager.getData( "password" ) as String ) || "";
+				return ( LocalStoreManager.getData( "password" ) as String ) || "";
 			return _password;
 		}
 
@@ -52,7 +53,7 @@ package app.modules.login.login.vo
 		public function set password(value:String):void
 		{
 			if ( isRememberPwd && isRememberName )
-				SharedObjectManager.setData( "password", value );
+				LocalStoreManager.setData( "password", value );
 			else _password = value;
 		}
 
@@ -61,7 +62,7 @@ package app.modules.login.login.vo
 		 */
 		public function get isRememberName():Boolean
 		{
-			return SharedObjectManager.getData( "isRememberName" );
+			return LocalStoreManager.getData( "isRememberName" );
 		}
 		
 		/**
@@ -69,7 +70,7 @@ package app.modules.login.login.vo
 		 */
 		public function set isRememberName(value:Boolean):void
 		{
-			SharedObjectManager.setData( "isRememberName", value );
+			LocalStoreManager.setData( "isRememberName", value );
 		}
 		
 		/**
@@ -77,7 +78,7 @@ package app.modules.login.login.vo
 		 */
 		public function get isRememberPwd():Boolean
 		{
-			return SharedObjectManager.getData( "isRememberPwd" );
+			return LocalStoreManager.getData( "isRememberPwd" );
 		}
 		
 		/**
@@ -85,7 +86,7 @@ package app.modules.login.login.vo
 		 */
 		public function set isRememberPwd(value:Boolean):void
 		{
-			SharedObjectManager.setData( "isRememberPwd", value );
+			LocalStoreManager.setData( "isRememberPwd", value );
 		}
 		
 		/**

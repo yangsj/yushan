@@ -1,15 +1,16 @@
 package app.modules.fight.panel.matching
 {
-	import app.core.Tips;
 	import app.modules.fight.service.FightOnlineService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.events.PanelEvent;
+	import net.victoryang.components.Tips;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightMatchingMediator extends BaseMediator

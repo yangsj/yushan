@@ -14,15 +14,16 @@ package app.modules.login.service
 	import ff.server_cmd_e;
 	import ff.user_login_ret_t;
 	
+	import net.victoryang.deubg.Debug;
+	
 	import victor.core.MD5;
 	import victor.framework.core.BaseService;
-	import victor.framework.debug.Debug;
 	import victor.framework.socket.SocketResp;
 
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-7
 	 */
 	public class LoginService extends BaseService

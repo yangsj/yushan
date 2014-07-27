@@ -5,12 +5,12 @@ package app.modules.friend.command
 	import app.modules.friend.model.FriendModel;
 	import app.modules.friend.service.FriendService;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-14
 	 */
 	public class CheckAddFrinedCommand extends BaseCommand

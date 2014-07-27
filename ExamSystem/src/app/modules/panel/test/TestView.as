@@ -8,18 +8,18 @@ package app.modules.panel.test
 	import flash.text.TextFormat;
 	
 	import app.core.Alert;
-	import victor.framework.manager.LoaderManager;
-	import victor.utils.calls;
 	
-	import victor.core.TabButtonControl;
-	import victor.core.scroll.GameScrollPanel;
-	import app.base.BasePanel;
-	import victor.framework.debug.Debug;
-	import victor.utils.HtmlText;
+	import net.victoryang.components.scroll.ScrollPanel;
+	import net.victoryang.core.TabButtons;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.calls;
+	import net.victoryang.managers.LoaderManager;
+	import net.victoryang.uitl.HtmlText;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-28
 	 */
 	public class TestView extends BasePanel
@@ -44,7 +44,7 @@ package app.modules.panel.test
 			_skin.addChild( container );
 			
 			var tabContainer:Sprite = new Sprite();			
-			var tabControl:TabButtonControl = new TabButtonControl( tabButtonControl );
+			var tabControl:TabButtons = new TabButtons( tabButtonControl );
 			for (var i:int = 0; i < funcNames.length; i++)
 			{
 				var data:Array = funcNames[ i ];
@@ -82,7 +82,7 @@ package app.modules.panel.test
 			itemContainer.x = 55;
 			itemContainer.y = 35;
 			con.addChild( itemContainer );
-			var gameScroll:GameScrollPanel = new GameScrollPanel();
+			var gameScroll:ScrollPanel = new ScrollPanel();
 			gameScroll.setTargetShow(itemContainer, 0, 0, 440, 330);
 			gameScroll.changeBarPos( -20, 0);
 			for (var i:int = 0; i < 24; i++)
@@ -106,7 +106,7 @@ package app.modules.panel.test
 			rtf.textfield.selectable = false;
 			rtf.defaultTextFormat = new TextFormat("Arial", 20, 0x000000);
 			rtf.textfield.addEventListener(TextEvent.LINK, linkHandler );
-//			rtf.append( HtmlText.urlEvent("this", "yangsj", 0xff0000)+ "  is test RichTextField",[{index:5, index:5, src:"ui_test_skin"}], true);
+//			rtf.append( HtmlText.urlEvent("this", "victor", 0xff0000)+ "  is test RichTextField",[{index:5, index:5, src:"ui_test_skin"}], true);
 			var xml:XML = 	<rtf>
 							  <htmlText></htmlText>
 							  <sprites>
@@ -114,7 +114,7 @@ package app.modules.panel.test
 							  </sprites>
 							</rtf>
 
-			xml.htmlText[0] = HtmlText.urlEvent( "this", "yangsj,victor,king", 0xff0000) + "  is RichTextField";
+			xml.htmlText[0] = HtmlText.urlEvent( "this", "victor,victor,king", 0xff0000) + "  is RichTextField";
 			rtf.importXML( xml );
 			function linkHandler(event:TextEvent):void
 			{

@@ -1,16 +1,16 @@
 package app.modules.map.main
 {
-	import victor.framework.events.ViewEvent;
 	import app.modules.ViewName;
 	import app.modules.map.event.MapEvent;
 	import app.modules.map.model.MapModel;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class MapWorldMediator extends BaseMediator

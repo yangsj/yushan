@@ -2,7 +2,6 @@ package app.modules.fight.view
 {
 	import flash.geom.Point;
 	
-	import app.core.Tips;
 	import app.events.PackEvent;
 	import app.modules.chat.event.ChatEvent;
 	import app.modules.fight.FightType;
@@ -20,15 +19,15 @@ package app.modules.fight.view
 	import app.modules.model.vo.ItemVo;
 	import app.sound.SoundManager;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.debug.Debug;
-	import victor.framework.manager.TickManager;
-	import victor.utils.DisplayUtil;
+	import net.victoryang.components.Tips;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BaseMediator;
+	import net.victoryang.managers.TickManager;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-22
 	 */
 	public class FightBaseMediator extends BaseMediator

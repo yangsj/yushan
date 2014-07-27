@@ -7,7 +7,7 @@ package app.modules.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-24
 	 */
 	public class PackModel extends Actor

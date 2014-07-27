@@ -1,11 +1,10 @@
 package app.modules.fight.view.spell
 {
-	import victor.framework.events.BaseEvent;
-	
+	import net.victoryang.events.BaseEvent;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class SpellEvent extends BaseEvent

@@ -4,13 +4,14 @@ package app.startup
 	
 	import app.sound.SoundManager;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.utils.apps;
+	import net.victoryang.framework.BaseCommand;
+	import net.victoryang.func.apps;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2014-1-4
 	 */
 	public class BackgroundSoundActivateCommand extends BaseCommand

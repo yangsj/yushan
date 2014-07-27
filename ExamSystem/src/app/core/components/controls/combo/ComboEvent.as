@@ -6,7 +6,7 @@ package app.core.components.controls.combo
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-7
 	 */
 	public class ComboEvent extends BaseEvent

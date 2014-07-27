@@ -9,12 +9,11 @@ package app.modules.chat.view
 	import app.modules.chat.model.ChatVo;
 	import app.modules.chat.service.ChatService;
 	
-	import victor.framework.core.BaseMediator;
-	
+	import net.victoryang.framework.BaseMediator;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class ChatMediator extends BaseMediator

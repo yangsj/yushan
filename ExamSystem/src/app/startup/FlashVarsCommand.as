@@ -3,13 +3,13 @@ package app.startup
 	import app.GameConfig;
 	import app.events.GameEvent;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.debug.Debug;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-27
 	 */
 	public class FlashVarsCommand extends BaseCommand

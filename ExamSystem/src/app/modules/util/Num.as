@@ -7,11 +7,11 @@ package app.modules.util
 	import flash.geom.Matrix;
 	import flash.utils.Dictionary;
 	
-	import victor.framework.manager.LoaderManager;
+	import net.victoryang.managers.LoaderManager;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-24
 	 */
 	public class Num

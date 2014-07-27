@@ -8,12 +8,12 @@ package app.modules.fight.panel.ready
 	
 	import app.modules.fight.model.FightMatchingVo;
 	
-	import victor.core.Reflection;
-	import victor.framework.interfaces.IDisposable;
+	import net.victoryang.core.Reflection;
+	import net.victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-19
 	 */
 	public class FightReadyItem implements IDisposable

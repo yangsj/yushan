@@ -7,11 +7,11 @@ package app.modules.fight.panel.search
 	
 	import app.modules.friend.model.FriendVo;
 	
-	import victor.utils.StringUitl;
+	import net.victoryang.uitl.StringUitl;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightSearchPanel extends FightSearchBasePanel

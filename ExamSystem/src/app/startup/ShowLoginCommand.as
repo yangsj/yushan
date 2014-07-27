@@ -2,12 +2,13 @@ package app.startup
 {
 	import app.modules.ViewName;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-9
 	 */
 	public class ShowLoginCommand extends BaseCommand

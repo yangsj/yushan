@@ -5,12 +5,11 @@ package app.modules.fight.view.spell
 	import app.modules.fight.model.LetterBubbleVo;
 	import app.modules.fight.service.FightAloneService;
 	
-	import victor.framework.core.BaseMediator;
-	
+	import net.victoryang.framework.BaseMediator;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class SpellAreaMediator extends BaseMediator

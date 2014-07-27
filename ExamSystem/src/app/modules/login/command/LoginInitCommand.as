@@ -3,18 +3,18 @@ package app.modules.login.command
 	import app.modules.ViewName;
 	import app.modules.login.login.LoginMediator;
 	import app.modules.login.login.LoginView;
-	import app.modules.login.service.LoginService;
 	import app.modules.login.preloader.PreloaderMediator;
 	import app.modules.login.preloader.PreloaderView;
 	import app.modules.login.register.RegisterMediator;
 	import app.modules.login.register.RegisterView;
+	import app.modules.login.service.LoginService;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class LoginInitCommand extends BaseCommand

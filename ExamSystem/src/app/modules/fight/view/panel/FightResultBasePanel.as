@@ -7,16 +7,16 @@ package app.modules.fight.view.panel
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.base.BasePanel;
 	import app.modules.fight.model.FightEndVo;
 	import app.modules.util.Num;
 	
-	import victor.utils.removeAllChildren;
-
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
+	
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-28
 	 */
 	public class FightResultBasePanel extends BasePanel
@@ -86,8 +86,8 @@ package app.modules.fight.view.panel
 
 		public function setData( endVo:FightEndVo ):void
 		{
-			removeAllChildren( conExpNum );
-			removeAllChildren( conMoneyNum );
+			removedAllChildren( conExpNum );
+			removedAllChildren( conMoneyNum );
 
 			var shapeNum:Shape = Num.getShape( endVo.addExp );
 			shapeNum.x = -shapeNum.width * 0.5;

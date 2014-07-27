@@ -10,12 +10,13 @@ package app.modules.fight.view.online
 	import app.modules.fight.view.FightBaseMediator;
 	import app.modules.fight.view.spell.SpellVo;
 	
-	import victor.framework.debug.Debug;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.func.removedAllChildren;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class FightOnlineMediator extends FightBaseMediator
@@ -128,7 +129,7 @@ package app.modules.fight.view.online
 			}
 			else
 			{
-				removeAllChildren( view.container2 );
+				removedAllChildren( view.container2 );
 			}
 		}
 		

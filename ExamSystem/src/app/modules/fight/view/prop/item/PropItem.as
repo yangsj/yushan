@@ -6,18 +6,19 @@ package app.modules.fight.view.prop.item
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.core.Tips;
 	import app.events.PackEvent;
 	import app.modules.model.vo.ItemVo;
 	
-	import victor.core.Reflection;
-	import victor.framework.manager.LoaderManager;
-	import victor.framework.manager.TickManager;
-	import victor.utils.removedFromParent;
+	import net.victoryang.components.Tips;
+	import net.victoryang.core.Reflection;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.managers.LoaderManager;
+	import net.victoryang.managers.TickManager;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-11
 	 */
 	public class PropItem extends Sprite

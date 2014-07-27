@@ -2,16 +2,16 @@ package app.modules.fight.panel.ready
 {
 	import flash.display.Sprite;
 	
-	import app.base.BasePanel;
 	import app.core.ButtonSkin;
 	import app.modules.fight.model.FightMatchingVo;
 	
-	import victor.utils.removedFromParent;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedFromParent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightReadyPanel extends BasePanel

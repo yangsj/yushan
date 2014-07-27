@@ -18,7 +18,7 @@ package app.core.text {
     import victor.core.scroll.ScrollBar;
 
     /**
-     * @author fireyang
+     * @author victor
      */
     public class RichTextPanel extends Sprite {
         private var _text : RichTextField;

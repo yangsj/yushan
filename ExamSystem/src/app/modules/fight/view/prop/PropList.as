@@ -4,15 +4,16 @@ package app.modules.fight.view.prop
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 	
-	import app.core.Tips;
 	import app.modules.fight.view.prop.item.PropItem;
 	import app.modules.model.vo.ItemType;
 	import app.modules.model.vo.ItemVo;
 	
+	import net.victoryang.components.Tips;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class PropList extends Sprite

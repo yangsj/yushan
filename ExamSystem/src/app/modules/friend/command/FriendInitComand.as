@@ -11,12 +11,12 @@ package app.modules.friend.command
 	import app.modules.friend.view.FriendOnlineListView;
 	import app.modules.friend.view.FriendView;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class FriendInitComand extends BaseCommand

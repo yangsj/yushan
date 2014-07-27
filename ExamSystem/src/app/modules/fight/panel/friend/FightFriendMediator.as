@@ -7,12 +7,13 @@ package app.modules.fight.panel.friend
 	import app.modules.friend.model.FriendVo;
 	import app.modules.friend.service.FriendService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightFriendMediator extends BaseMediator

@@ -5,7 +5,7 @@ package app.modules.panel.personal.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-30
 	 */
 	public class PersonalModel extends Actor

@@ -5,7 +5,6 @@ package app.modules.panel.personal.view
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.data.PlayerSelfVo;
 	import app.modules.login.register.CheckboxPanel;
@@ -14,14 +13,16 @@ package app.modules.panel.personal.view
 	import app.modules.model.GenderType;
 	import app.modules.panel.personal.events.PersonalEvent;
 	
-	import victor.core.TabButtonControl;
-	import app.base.BasePanel;
-	import victor.framework.debug.Debug;
-	import victor.utils.StringUitl;
+	import net.victoryang.components.Tips;
+	import net.victoryang.core.TabButtons;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.uitl.StringUitl;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-3
 	 */
 	public class InformationPanel extends BasePanel
@@ -48,7 +49,7 @@ package app.modules.panel.personal.view
 		public var tab0:MovieClip;
 		public var tab1:MovieClip;
 		
-		private var tabControl:TabButtonControl;
+		private var tabControl:TabButtons;
 		private var gender:int = 0;
 		
 		private var areaPanel:CheckboxPanel;
@@ -172,7 +173,7 @@ package app.modules.panel.personal.view
 			checkboxArea.addEventListener(MouseEvent.CLICK, checkboxAreaHandler );
 			checkboxGrade.addEventListener(MouseEvent.CLICK, checkboxGradeHandler );
 			
-			tabControl = new TabButtonControl( tabControlHandler );
+			tabControl = new TabButtons( tabControlHandler );
 			tabControl.addTarget( tab0, GenderType.MALE );
 			tabControl.addTarget( tab1, GenderType.FEMALE );
 			

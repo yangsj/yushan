@@ -2,13 +2,14 @@ package app.modules.panel.test
 {
 	import app.modules.ViewName;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.debug.Debug;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BaseCommand;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-7
 	 */
 	public class TestInitCommand extends BaseCommand

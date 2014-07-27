@@ -7,7 +7,7 @@ package app.data
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-28
 	 */
 	public class GameData extends Actor

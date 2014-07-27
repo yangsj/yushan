@@ -17,7 +17,7 @@ package app.modules.panel.rank.service
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class RankService extends BaseService

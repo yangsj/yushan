@@ -3,7 +3,7 @@ package
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-24
 	 * 
 	 * @sync 更新版本命令

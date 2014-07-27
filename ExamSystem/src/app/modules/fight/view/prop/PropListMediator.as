@@ -1,6 +1,5 @@
 package app.modules.fight.view.prop
 {
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.events.PackEvent;
 	import app.modules.fight.FightType;
@@ -12,13 +11,14 @@ package app.modules.fight.view.prop
 	import app.modules.model.vo.ItemVo;
 	import app.modules.serivce.PackService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.manager.TickManager;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BaseMediator;
+	import net.victoryang.managers.TickManager;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class PropListMediator extends BaseMediator

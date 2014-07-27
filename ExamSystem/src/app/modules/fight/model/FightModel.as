@@ -4,13 +4,14 @@ package app.modules.fight.model
 	
 	import app.modules.fight.view.spell.SpellVo;
 	
+	import net.victoryang.uitl.MathUtil;
+	
 	import org.robotlegs.mvcs.Actor;
 	
-	import victor.utils.MathUtil;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class FightModel extends Actor

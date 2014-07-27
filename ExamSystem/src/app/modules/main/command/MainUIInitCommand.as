@@ -5,12 +5,12 @@ package app.modules.main.command
 	import app.modules.main.view.MainUIMediator;
 	import app.modules.main.view.MainUIView;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-10
 	 */
 	public class MainUIInitCommand extends BaseCommand

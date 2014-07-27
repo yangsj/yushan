@@ -5,11 +5,11 @@ package app.data.item
 	import app.GameConfig;
 	import app.data.vo.LevelExpItemVo;
 	
-	import victor.utils.MathUtil;
+	import net.victoryang.uitl.MathUtil;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-24
 	 */
 	public class LevelExpCollection

@@ -1,17 +1,15 @@
 package app.modules.task.command
 {
-	import app.core.Tips;
-	import victor.framework.events.ViewEvent;
-	import app.modules.ViewName;
 	import app.modules.task.model.TaskModel;
 	import app.modules.task.model.TaskVo;
 	
-	import victor.framework.core.BaseCommand;
-
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BaseCommand;
+	
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-11-24
 	 */
 	public class TaskCheckCompleteCommand extends BaseCommand

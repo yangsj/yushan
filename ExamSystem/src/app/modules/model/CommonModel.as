@@ -2,10 +2,9 @@ package app.modules.model
 {
 	import org.robotlegs.mvcs.Actor;
 	
-	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-24
 	 */
 	public class CommonModel extends Actor

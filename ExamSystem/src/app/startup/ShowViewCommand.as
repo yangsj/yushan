@@ -3,19 +3,17 @@ package app.startup
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 	
-	import app.modules.ViewName;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BaseCommand;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.interfaces.IViewBase;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.core.ViewStruct;
-	import victor.framework.debug.Debug;
-	import victor.framework.events.ViewEvent;
-	import victor.framework.interfaces.IView;
-	import victor.utils.removedFromParent;
-
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-8-6
 	 */
 	public class ShowViewCommand extends BaseCommand
@@ -33,7 +31,7 @@ package app.startup
 			if ( event )
 			{
 				var viewName:String = event.viewName;
-				var view:IView;
+				var view:IViewBase;
 				if ( event.type == ViewEvent.CLOSE_ALL )
 				{
 					var container:DisplayObjectContainer = ViewStruct.getContainer( ViewStruct.PANEL );
@@ -43,7 +41,7 @@ package app.startup
 						while ( container.numChildren > 0 )
 						{
 							dis = container.getChildAt( 0 );
-							view = dis as IView;
+							view = dis as IViewBase;
 							if ( view ) {
 								view.hide();
 							} 

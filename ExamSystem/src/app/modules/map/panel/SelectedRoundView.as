@@ -6,20 +6,20 @@ package app.modules.map.panel
 	import flash.text.TextField;
 	import flash.utils.Dictionary;
 	
-	import app.base.BasePanel;
 	import app.core.ButtonSkin;
 	import app.modules.map.model.ChapterVo;
 	import app.modules.map.model.MapVo;
 	import app.modules.map.panel.item.GroupItem;
 	
-	import victor.core.Reflection;
-	import victor.utils.DisplayUtil;
-	import victor.utils.removeAllChildren;
-	import victor.utils.removedFromParent;
+	import net.victoryang.core.Reflection;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.func.removedFromParent;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-22
 	 */
 	public class SelectedRoundView extends BasePanel
@@ -57,7 +57,7 @@ package app.modules.map.panel
 		
 		override protected function createSkin():void
 		{
-			removeAllChildren( this );
+			removedAllChildren( this );
 			// 
 			_skin = skinDict[ skinName ];
 			if ( _skin == null )

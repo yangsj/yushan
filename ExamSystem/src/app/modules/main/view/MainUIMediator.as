@@ -3,7 +3,6 @@ package app.modules.main.view
 	import flash.events.KeyboardEvent;
 	import flash.ui.Keyboard;
 	
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.managers.ExternalManager;
 	import app.modules.ViewName;
@@ -14,15 +13,17 @@ package app.modules.main.view
 	import app.modules.task.event.TaskEvent;
 	import app.modules.task.service.TaskService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.debug.Debug;
-	import victor.framework.events.PanelEvent;
-	import victor.framework.events.ViewEvent;
-	import victor.framework.manager.TickManager;
+	import net.victoryang.components.Tips;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BaseMediator;
+	import net.victoryang.managers.TickManager;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-10
 	 */
 	public class MainUIMediator extends BaseMediator

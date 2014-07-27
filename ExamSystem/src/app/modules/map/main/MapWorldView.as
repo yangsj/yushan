@@ -5,11 +5,11 @@ package app.modules.map.main
 	import app.modules.map.main.item.MapItem;
 	import app.modules.map.model.MapVo;
 	
-	import victor.framework.core.BaseScene;
+	import net.victoryang.framework.BaseScene;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class MapWorldView extends BaseScene

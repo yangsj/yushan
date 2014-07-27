@@ -4,7 +4,7 @@ package victor.core
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2014-6-29
 	 */
 	public class Instance

@@ -6,18 +6,18 @@ package app.modules.login.register
 	import flash.display.MovieClip;
 	import flash.events.MouseEvent;
 	
-	import victor.core.TabButtonControl;
-	import victor.framework.core.BaseSprite;
-	import victor.framework.interfaces.IDisposable;
-	import victor.utils.MathUtil;
-	import victor.utils.apps;
-	import victor.utils.calls;
-	import victor.utils.removedFromParent;
+	import net.victoryang.core.TabButtons;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.apps;
+	import net.victoryang.func.calls;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.interfaces.IDisposable;
+	import net.victoryang.uitl.MathUtil;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-9
 	 */
 	public class CheckboxPanel extends BaseSprite implements IDisposable
@@ -26,7 +26,7 @@ package app.modules.login.register
 		
 		public var callBackFun:Function;
 		
-		private var tabControl:TabButtonControl;
+		private var tabControl:TabButtons;
 		private var _isOpen:Boolean;
 		
 		public function CheckboxPanel()
@@ -73,7 +73,7 @@ package app.modules.login.register
 		public function setData( array:Array, isArea:Boolean = true ):void
 		{
 			var leng:int = array.length;
-			tabControl ||= new TabButtonControl( tabControlHandler );
+			tabControl ||= new TabButtons( tabControlHandler );
 			for ( var i:int = 0; i < 20; i++ )
 			{
 				var mc:MovieClip = _skin.getChildByName("item" + i ) as MovieClip;

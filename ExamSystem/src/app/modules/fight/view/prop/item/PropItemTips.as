@@ -6,18 +6,18 @@ package app.modules.fight.view.prop.item
 	import flash.geom.Point;
 	import flash.text.TextField;
 	
-	import app.core.Text;
 	import app.modules.model.vo.ItemVo;
 	
-	import victor.framework.core.ViewStruct;
-	import victor.framework.interfaces.IDisposable;
-	import victor.utils.MathUtil;
-	import victor.utils.apps;
+	import net.victoryang.components.Text;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.apps;
+	import net.victoryang.interfaces.IDisposable;
+	import net.victoryang.uitl.MathUtil;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-5
 	 */
 	public class PropItemTips extends Sprite implements IDisposable

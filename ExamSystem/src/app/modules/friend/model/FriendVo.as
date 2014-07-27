@@ -5,7 +5,7 @@ package app.modules.friend.model
 	
 	/**
 	 * ……好友数据
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-18
 	 */
 	public class FriendVo extends PlayerBaseVo

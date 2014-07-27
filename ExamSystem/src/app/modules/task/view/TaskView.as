@@ -2,22 +2,22 @@ package app.modules.task.view
 {
 	import flash.display.Sprite;
 	
-	import app.base.BasePanel;
 	import app.modules.task.model.TaskVo;
 	
-	import victor.core.scroll.GameScrollPanel;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.components.scroll.ScrollPanel;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class TaskView extends BasePanel
 	{
 		private var listContainer:Sprite;
-		private var gameScroll:GameScrollPanel;
+		private var gameScroll:ScrollPanel;
 		
 		public function TaskView()
 		{
@@ -27,7 +27,7 @@ package app.modules.task.view
 		{
 			if ( list )
 			{
-				removeAllChildren( listContainer );
+				removedAllChildren( listContainer );
 				var i:int = 0;
 				var disty:Number = 43;
 				var startx:Number = list.length < 7 ? 5 : 0;
@@ -58,7 +58,7 @@ package app.modules.task.view
 			listContainer.y = 46;
 			_skin.addChild( listContainer );
 			
-			gameScroll = new GameScrollPanel();
+			gameScroll = new ScrollPanel();
 			gameScroll.setTargetAndHeight( listContainer, listContainer.height, listContainer.width );
 		}
 		

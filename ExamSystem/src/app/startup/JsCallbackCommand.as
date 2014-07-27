@@ -3,12 +3,13 @@ package app.startup
 	import app.managers.ExternalManager;
 	import app.modules.serivce.CommonService;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.core.SystemInfo;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2014-1-4
 	 */
 	public class JsCallbackCommand extends BaseCommand
@@ -30,7 +31,10 @@ package app.startup
 		
 		override public function execute():void
 		{
-			ExternalManager.addCallback( "shareWeiboSuccessCallFlash", shareWeiboSuccessCallFlash );
+			if ( SystemInfo.isPc )
+			{
+				ExternalManager.addCallback( "shareWeiboSuccessCallFlash", shareWeiboSuccessCallFlash );
+			}
 		}
 		
 		private function shareWeiboSuccessCallFlash():void

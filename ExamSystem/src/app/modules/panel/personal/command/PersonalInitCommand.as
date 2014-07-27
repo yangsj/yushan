@@ -2,20 +2,21 @@ package app.modules.panel.personal.command
 {
 	import app.modules.ViewName;
 	import app.modules.panel.personal.model.PersonalModel;
+	import app.modules.panel.personal.service.PersonalService;
 	import app.modules.panel.personal.view.ErrorListMediator;
 	import app.modules.panel.personal.view.ErrorListView;
-	import app.modules.panel.personal.service.PersonalService;
 	import app.modules.panel.personal.view.InformationMediator;
 	import app.modules.panel.personal.view.InformationPanel;
 	import app.modules.panel.personal.view.PersonalMediator;
 	import app.modules.panel.personal.view.PersonalPanel;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-12
 	 */
 	public class PersonalInitCommand extends BaseCommand

@@ -11,15 +11,16 @@ package app.core
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.core.Reflection;
-	import victor.framework.core.ViewStruct;
-	import victor.utils.apps;
-	import victor.utils.calls;
-	import victor.utils.removedFromParent;
+	import net.victoryang.core.Reflection;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.apps;
+	import net.victoryang.func.calls;
+	import net.victoryang.func.removedFromParent;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-5
 	 */
 	public class Alert extends Sprite

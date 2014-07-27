@@ -3,7 +3,7 @@ package app.modules.friend.view
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-23
 	 */
 	public class FriendOnlineListView extends FriendView

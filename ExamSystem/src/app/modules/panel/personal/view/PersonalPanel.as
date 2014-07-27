@@ -6,14 +6,15 @@ package app.modules.panel.personal.view
 	
 	import app.data.GameData;
 	import app.data.PlayerSelfVo;
-	import victor.framework.events.ViewEvent;
 	import app.modules.ViewName;
 	
-	import app.base.BasePanel;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BasePanel;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-12
 	 */
 	public class PersonalPanel extends BasePanel

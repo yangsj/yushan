@@ -2,14 +2,14 @@ package app.data
 {
 	import app.GameConfig;
 	
-	import org.robotlegs.mvcs.Actor;
+	import net.victoryang.uitl.MathUtil;
 	
-	import victor.utils.MathUtil;
+	import org.robotlegs.mvcs.Actor;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-18
 	 */
 	public class PlayerBaseVo extends Actor

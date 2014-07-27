@@ -3,7 +3,7 @@ package app.modules.friend.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-24
 	 */
 	public class FriendApplyVo

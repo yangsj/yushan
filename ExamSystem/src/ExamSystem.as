@@ -8,13 +8,13 @@ package
 	import app.AppContext;
 	import app.GameConfig;
 	
-	import victor.utils.apps;
+	import net.victoryang.func.apps;
 	
 	
 	[SWF( width = "960", height = "560", frameRate = "60" )]
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2014-6-29
 	 */
 	public class ExamSystem extends Sprite

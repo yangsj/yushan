@@ -5,7 +5,7 @@ package app.modules.main.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-25
 	 */
 	public class MainModel extends Actor

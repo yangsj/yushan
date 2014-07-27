@@ -4,7 +4,7 @@ package app.modules.task.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-23
 	 */
 	public class TaskVo

@@ -6,13 +6,14 @@ package app.modules.fight.command
 	import app.modules.fight.service.FightOnlineService;
 	import app.modules.model.CommonModel;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.events.PanelEvent;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseCommand;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-28
 	 */
 	public class FightInviteCommand extends BaseCommand

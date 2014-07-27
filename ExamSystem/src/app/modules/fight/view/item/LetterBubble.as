@@ -16,15 +16,15 @@ package app.modules.fight.view.item
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.framework.core.BaseSprite;
-	import victor.framework.manager.TickManager;
-	import victor.utils.MathUtil;
-	import victor.utils.removedFromParent;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.managers.TickManager;
+	import net.victoryang.uitl.MathUtil;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class LetterBubble extends BaseSprite

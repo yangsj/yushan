@@ -7,7 +7,7 @@ package app.modules.fight.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-19
 	 */
 	public class FightReadyModel extends Actor

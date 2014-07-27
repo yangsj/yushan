@@ -1,20 +1,20 @@
 package app.modules.chat.view
 {
 	import flash.display.DisplayObjectContainer;
-	import flash.display.Sprite;
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 	
-	import victor.core.AnimationClip;
 	import app.modules.chat.event.ChatEvent;
-	import victor.utils.apps;
 	
-	import victor.framework.core.BaseView;
+	import net.victoryang.framework.BaseView;
+	import net.victoryang.func.apps;
+	
+	import victor.core.AnimationClip;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-9
 	 */
 	public class ChatEmotionPanel extends BaseView

@@ -8,12 +8,12 @@ package app.modules.map.command
 	import app.modules.map.panel.SelectedRoundView;
 	import app.modules.map.service.MapService;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-22
 	 */
 	public class MapInitCommand extends BaseCommand

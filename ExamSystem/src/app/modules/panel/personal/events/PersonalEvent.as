@@ -1,11 +1,11 @@
 package app.modules.panel.personal.events
 {
-	import victor.framework.events.BaseEvent;
+	import net.victoryang.events.BaseEvent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-12
 	 */
 	public class PersonalEvent extends BaseEvent

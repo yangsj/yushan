@@ -4,7 +4,7 @@ package app.modules.main
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-10
 	 */
 	public class FunctionBtnConfig

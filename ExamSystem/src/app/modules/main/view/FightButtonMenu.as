@@ -1,21 +1,23 @@
 package app.modules.main.view
 {
+	
 	import com.greensock.TweenLite;
 	import com.greensock.easing.Back;
 	
 	import flash.events.MouseEvent;
 	
-	import victor.framework.events.ViewEvent;
-	import victor.framework.core.BaseSprite;
 	import app.modules.ViewName;
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.utils.apps;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.apps;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-18
 	 */
 	public class FightButtonMenu extends BaseSprite

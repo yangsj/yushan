@@ -7,11 +7,11 @@ package app.modules.chat.model
 	import app.modules.chat.event.ChatEvent;
 	
 	import org.robotlegs.mvcs.Actor;
-
+	
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-6
 	 */
 	public class ChatModel extends Actor

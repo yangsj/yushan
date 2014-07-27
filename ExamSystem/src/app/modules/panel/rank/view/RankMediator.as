@@ -5,12 +5,12 @@ package app.modules.panel.rank.view
 	import app.modules.panel.rank.model.RankVo;
 	import app.modules.panel.rank.service.RankService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class RankMediator extends BaseMediator

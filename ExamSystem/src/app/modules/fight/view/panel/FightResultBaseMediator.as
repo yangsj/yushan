@@ -4,12 +4,12 @@ package app.modules.fight.view.panel
 	import app.modules.fight.model.FightModel;
 	import app.modules.fight.service.FightAloneService;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-28
 	 */
 	public class FightResultBaseMediator extends BaseMediator

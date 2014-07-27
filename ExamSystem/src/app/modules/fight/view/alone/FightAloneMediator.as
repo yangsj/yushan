@@ -4,11 +4,12 @@ package app.modules.fight.view.alone
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.view.FightBaseMediator;
 	
-	import victor.utils.HtmlText;
+	import net.victoryang.uitl.HtmlText;
+	
 	
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-27
 	 */
 	public class FightAloneMediator extends FightBaseMediator

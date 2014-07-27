@@ -12,18 +12,18 @@ package app.modules.panel.personal.view
 	import flash.utils.ByteArray;
 	import flash.utils.Dictionary;
 	
-	import app.base.BasePanel;
-	import app.core.Tips;
 	import app.modules.panel.personal.model.ErrorListVo;
 	
-	import victor.core.scroll.GameScrollPanel;
-	import victor.utils.removeAllChildren;
-	import victor.utils.removedFromParent;
+	import net.victoryang.components.Tips;
+	import net.victoryang.components.scroll.ScrollPanel;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.func.removedFromParent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-30
 	 */
 	public class ErrorListView extends BasePanel
@@ -39,7 +39,7 @@ package app.modules.panel.personal.view
 		
 		private var txtStr:TextField;
 		private var fileReference:FileReference;
-		private var gameScroll:GameScrollPanel;
+		private var gameScroll:ScrollPanel;
 		private var listStr:String = "";
 		private var englishBitmap:Bitmap;
 		private var chineseBitmap:Bitmap;
@@ -62,7 +62,7 @@ package app.modules.panel.personal.view
 				createScroll();
 				txtStr.text = "";
 				listStr = "";
-				removeAllChildren( itemBgCon );
+				removedAllChildren( itemBgCon );
 				listContainer.addChild( itemBgCon );
 				for each ( var val:String in englishList )
 				{
@@ -156,10 +156,10 @@ package app.modules.panel.personal.view
 		{
 			if ( gameScroll == null )
 			{
-				gameScroll = new GameScrollPanel();
+				gameScroll = new ScrollPanel();
 				gameScroll.setTargetAndHeight( listContainer, listContainer.height, listWidth );
 				
-				removeAllChildren( listContainer );
+				removedAllChildren( listContainer );
 				listContainer.addChild( txtStr );
 				txtStr.height = txtStr.textHeight;
 				

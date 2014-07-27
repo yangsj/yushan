@@ -3,7 +3,7 @@ package app.modules.panel.rank
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-28
 	 */
 	public class RankType

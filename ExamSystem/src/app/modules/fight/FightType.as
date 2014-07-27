@@ -2,7 +2,7 @@ package app.modules.fight
 {
 	
 	/**
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-11
 	 */
 	public class FightType

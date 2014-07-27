@@ -3,20 +3,20 @@ package app.modules.fight.panel.matching
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.base.BasePanel;
 	import app.core.ButtonSkin;
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.modules.model.GenderType;
 	
-	import victor.framework.manager.TickManager;
-	import victor.utils.HtmlText;
-	import victor.utils.removedFromParent;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.managers.TickManager;
+	import net.victoryang.uitl.HtmlText;
 	
 	
 	/**
 	 * ……自动匹配
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightMatchingPanel extends BasePanel

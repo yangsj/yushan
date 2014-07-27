@@ -1,11 +1,11 @@
 package app.modules.fight.panel.ready
 {
-	import victor.framework.events.BaseEvent;
+	import net.victoryang.events.BaseEvent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-19
 	 */
 	public class FightReadyEvent extends BaseEvent

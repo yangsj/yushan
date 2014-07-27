@@ -5,13 +5,14 @@ package app.modules.main.view
 	import flash.display.Sprite;
 	import flash.geom.Matrix;
 	
+	import net.victoryang.managers.LoaderManager;
+	
 	import victor.core.AnimationClip;
-	import victor.framework.manager.LoaderManager;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2014-1-8
 	 */
 	public class ExclamatoryMarkEffect extends Sprite

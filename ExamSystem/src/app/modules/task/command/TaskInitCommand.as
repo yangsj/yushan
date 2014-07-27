@@ -9,12 +9,12 @@ package app.modules.task.command
 	import app.modules.task.view.TaskMediator;
 	import app.modules.task.view.TaskView;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class TaskInitCommand extends BaseCommand

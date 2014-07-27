@@ -3,7 +3,7 @@ package app.modules.panel.rank.model
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-25
 	 */
 	public class RankVo

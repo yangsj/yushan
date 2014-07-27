@@ -6,19 +6,19 @@ package app.startup
 	import flash.net.URLRequest;
 	
 	import app.GameConfig;
-	import app.core.Tips;
 	import app.events.GameEvent;
 	import app.modules.login.service.LoginService;
 	import app.sound.SoundManager;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.debug.Debug;
-	import victor.framework.manager.LoaderManager;
+	import net.victoryang.components.Tips;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BaseCommand;
+	import net.victoryang.managers.LoaderManager;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-9
 	 */
 	public class InitDataCommand extends BaseCommand

@@ -2,12 +2,12 @@ package app.modules.panel.share
 {
 	import app.modules.ViewName;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-13
 	 */
 	public class ShareWeiboInitCommand extends BaseCommand

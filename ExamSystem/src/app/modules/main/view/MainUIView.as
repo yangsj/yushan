@@ -13,19 +13,18 @@ package app.modules.main.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.core.Numeric;
-	import victor.framework.core.BaseView;
-	import victor.framework.core.ViewStruct;
-	import victor.framework.events.ViewEvent;
-	import victor.framework.manager.LoaderManager;
-	import victor.utils.DisplayUtil;
-	import victor.utils.MathUtil;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.core.Numeric;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BaseView;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.managers.LoaderManager;
+	import net.victoryang.uitl.MathUtil;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-10
 	 */
 	public class MainUIView extends BaseView
@@ -123,7 +122,7 @@ package app.modules.main.view
 				levelNumCreate ||= new Numeric(LoaderManager.getObj( "ui_Skin_LevelNumber" ) as MovieClip);
 				levelNumSprite = levelNumCreate.creatNumber( level );
 				levelNumSprite.x = -levelNumSprite.width >> 1;
-				removeAllChildren( levelContainer );
+				removedAllChildren( levelContainer );
 				levelContainer.addChild( levelNumSprite );
 			}
 		}

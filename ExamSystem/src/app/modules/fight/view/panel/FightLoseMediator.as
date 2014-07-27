@@ -3,7 +3,7 @@ package app.modules.fight.view.panel
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-28
 	 */
 	public class FightLoseMediator extends FightResultBaseMediator

@@ -2,11 +2,11 @@ package app.modules.fight.view.panel
 {
 	import app.modules.fight.model.FightEndVo;
 	
-	import victor.utils.UtilsFilter;
-
+	import net.victoryang.uitl.UtilsFilter;
+	
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-28
 	 */
 	public class FightWinPanel extends FightResultBasePanel

@@ -2,7 +2,7 @@ package victor.framework.socket {
     import flash.utils.Dictionary;
 
     /**
-     * @author fireyang
+     * @author victor
      */
     public class Protocol {
         private static var _wired : Dictionary;

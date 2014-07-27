@@ -2,7 +2,7 @@ package victor.framework.socket {
     import flash.events.Event;
 
     /**
-     * @author fireyang
+     * @author victor
      */
     public class SocketEvent extends Event {
         public static const CONNECTED : String = "socket_connected";

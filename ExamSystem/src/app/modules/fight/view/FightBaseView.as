@@ -14,9 +14,7 @@ package app.modules.fight.view
 	import flash.text.TextField;
 	import flash.utils.Dictionary;
 	
-	import app.base.BaseLoadView;
 	import app.core.ButtonSkin;
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.events.PackEvent;
 	import app.modules.fight.events.FightAloneEvent;
@@ -28,18 +26,20 @@ package app.modules.fight.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import victor.framework.core.ViewStruct;
-	import victor.framework.manager.TickManager;
-	import victor.utils.HtmlText;
-	import victor.utils.MathUtil;
-	import victor.utils.apps;
-	import victor.utils.removeAllChildren;
-	import victor.utils.removedFromParent;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BaseLoadView;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.apps;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.managers.TickManager;
+	import net.victoryang.uitl.HtmlText;
+	import net.victoryang.uitl.MathUtil;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightBaseView extends BaseLoadView
@@ -172,8 +172,8 @@ package app.modules.fight.view
 		
 		public function removeConChilds():void
 		{
-			removeAllChildren( container );
-			removeAllChildren( container2 );
+			removedAllChildren( container );
+			removedAllChildren( container2 );
 		}
 		
 		public function playAddMoneyEffect( num:int, point:Point ):void

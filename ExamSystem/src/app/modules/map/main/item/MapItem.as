@@ -1,5 +1,6 @@
 package app.modules.map.main.item
 {
+	
 	import com.greensock.TweenLite;
 	import com.greensock.easing.Back;
 	
@@ -9,13 +10,14 @@ package app.modules.map.main.item
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.core.Tips;
 	import app.modules.map.event.MapEvent;
 	import app.modules.map.model.MapVo;
 	
+	import net.victoryang.components.Tips;
+	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-24
 	 */
 	public class MapItem extends MapItemBase

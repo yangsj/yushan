@@ -7,11 +7,11 @@ package app.modules.fight.view.spell
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.model.LetterBubbleVo;
 	
-	import victor.framework.interfaces.IDisposable;
+	import net.victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class SpellItem implements IDisposable

@@ -1,7 +1,6 @@
 package app.modules.serivce
 {
 	import app.core.Alert;
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.modules.fight.model.FightModel;
 	import app.modules.main.event.MainUIEvent;
@@ -14,14 +13,16 @@ package app.modules.serivce
 	import ff.share_weibo_ok_req_t;
 	import ff.update_property_ret_t;
 	
+	import net.victoryang.components.Tips;
+	import net.victoryang.deubg.Debug;
+	
 	import victor.framework.core.BaseService;
-	import victor.framework.debug.Debug;
 	import victor.framework.socket.SocketResp;
 
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-15
 	 */
 	public class CommonService extends BaseService

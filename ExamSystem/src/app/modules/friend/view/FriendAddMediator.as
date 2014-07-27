@@ -1,17 +1,17 @@
 package app.modules.friend.view
 {
-	import app.core.Tips;
 	import app.modules.ViewName;
 	import app.modules.friend.event.FriendEvent;
 	import app.modules.friend.service.FriendService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.events.PanelEvent;
+	import net.victoryang.components.Tips;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-23
 	 */
 	public class FriendAddMediator extends BaseMediator

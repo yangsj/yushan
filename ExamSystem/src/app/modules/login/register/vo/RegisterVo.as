@@ -3,7 +3,7 @@ package app.modules.login.register.vo
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class RegisterVo

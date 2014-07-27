@@ -10,14 +10,14 @@ package app.modules.friend.view
 	import app.modules.friend.event.FriendEvent;
 	import app.modules.friend.model.FriendVo;
 	
-	import victor.framework.core.BaseSprite;
-	import victor.utils.apps;
-	import victor.utils.removedFromParent;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.apps;
+	import net.victoryang.func.removedFromParent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-23
 	 */
 	public class FriendItem extends BaseSprite

@@ -5,13 +5,13 @@ package app.modules.panel.rank.view
 	
 	import app.modules.panel.rank.model.RankVo;
 	
-	import victor.framework.core.BaseSprite;
-	import victor.utils.HtmlText;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.uitl.HtmlText;
 	
 	
 	/**
 	 * ……0xFF8B31
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-25
 	 */
 	public class RankItem extends BaseSprite

@@ -1,6 +1,7 @@
 package victor.framework.core {
 
-	import victor.framework.events.ViewEvent;
+	
+	import net.victoryang.events.ViewEvent;
 	
 	import org.robotlegs.mvcs.Actor;
 	

@@ -8,7 +8,7 @@ package app.core.components
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-25
 	 */
 	public class PushButton implements IDisposable

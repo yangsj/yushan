@@ -2,7 +2,7 @@ package victor.framework.socket {
     import flash.events.IEventDispatcher;
 
     /**
-     * @author fireyang
+     * @author victor
      */
     public interface ISocketManager extends IEventDispatcher {
         function connect(host : String, port : int) : void;

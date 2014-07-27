@@ -8,14 +8,15 @@ package app.modules.fight.view.spell
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.model.LetterBubbleVo;
 	
-	import victor.framework.core.BaseSprite;
-	import victor.framework.manager.TickManager;
-	import victor.utils.removedFromParent;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.managers.TickManager;
+	
 
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-27
 	 */
 	public class SpellArea extends BaseSprite

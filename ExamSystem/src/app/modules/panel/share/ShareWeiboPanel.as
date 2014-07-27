@@ -3,12 +3,12 @@ package app.modules.panel.share
 	import flash.display.InteractiveObject;
 	import flash.events.MouseEvent;
 	
-	import app.base.BasePanel;
+	import net.victoryang.framework.BasePanel;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-13
 	 */
 	public class ShareWeiboPanel extends BasePanel

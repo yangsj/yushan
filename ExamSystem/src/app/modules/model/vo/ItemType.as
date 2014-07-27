@@ -4,7 +4,7 @@ package app.modules.model.vo
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class ItemType

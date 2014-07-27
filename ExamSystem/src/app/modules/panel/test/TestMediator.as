@@ -1,11 +1,11 @@
 package app.modules.panel.test
 {
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-28
 	 */
 	public class TestMediator extends BaseMediator

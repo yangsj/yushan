@@ -7,7 +7,7 @@ package app.modules.map.panel.item
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-25
 	 */
 	public class GroupItem extends MapItemBase

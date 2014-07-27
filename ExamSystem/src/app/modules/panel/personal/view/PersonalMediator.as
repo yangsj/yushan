@@ -2,12 +2,12 @@ package app.modules.panel.personal.view
 {
 	import app.modules.model.PackModel;
 	
-	import victor.framework.core.BaseMediator;
+	import net.victoryang.framework.BaseMediator;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-12
 	 */
 	public class PersonalMediator extends BaseMediator

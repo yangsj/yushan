@@ -2,7 +2,6 @@ package app.modules.fight.service
 {
 	import flash.utils.Dictionary;
 	
-	import app.core.Tips;
 	import app.data.GameData;
 	import app.modules.LoadingEffect;
 	import app.modules.ViewName;
@@ -30,14 +29,16 @@ package app.modules.fight.service
 	import ff.start_round_req_t;
 	import ff.start_round_ret_t;
 	
+	import net.victoryang.components.Tips;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.managers.TickManager;
+	
 	import victor.framework.core.BaseService;
-	import victor.framework.debug.Debug;
-	import victor.framework.manager.TickManager;
 	import victor.framework.socket.SocketResp;
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-24
 	 */
 	public class FightAloneService extends BaseService

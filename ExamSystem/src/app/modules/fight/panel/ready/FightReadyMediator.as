@@ -4,14 +4,15 @@ package app.modules.fight.panel.ready
 	import app.modules.fight.model.FightReadyModel;
 	import app.modules.fight.service.FightOnlineService;
 	
-	import victor.framework.core.BaseMediator;
-	import victor.framework.events.PanelEvent;
-	import victor.framework.debug.Debug;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseMediator;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightReadyMediator extends BaseMediator

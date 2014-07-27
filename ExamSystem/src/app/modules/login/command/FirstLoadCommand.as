@@ -1,18 +1,19 @@
 package app.modules.login.command
 {
 	import app.events.GameEvent;
-	import victor.framework.events.LoadEvent;
-	import victor.framework.manager.LoaderManager;
 	import app.modules.ViewName;
 	import app.sound.SoundManager;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.debug.Debug;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.events.LoadEvent;
+	import net.victoryang.framework.BaseCommand;
+	import net.victoryang.managers.LoaderManager;
+	
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-9
 	 */
 	public class FirstLoadCommand extends BaseCommand

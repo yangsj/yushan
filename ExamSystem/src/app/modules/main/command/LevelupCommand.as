@@ -1,14 +1,14 @@
 package app.modules.main.command
 {
-	import app.core.Tips;
 	import app.data.GameData;
 	
-	import victor.framework.core.BaseCommand;
+	import net.victoryang.components.Tips;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-31
 	 */
 	public class LevelupCommand extends BaseCommand

@@ -3,7 +3,7 @@ package app.sound
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-12-3
 	 */
 	public class SoundType

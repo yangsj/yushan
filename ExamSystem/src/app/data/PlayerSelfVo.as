@@ -2,7 +2,7 @@ package app.data
 {
 	/**
 	 * ……玩家自己的数据
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-18
 	 */
 	public class PlayerSelfVo extends PlayerBaseVo

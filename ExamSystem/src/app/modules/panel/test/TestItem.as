@@ -3,16 +3,15 @@ package app.modules.panel.test
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.core.Text;
-	
-	import victor.framework.drag.DragItem;
-	import victor.framework.drag.DragManager;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.components.Text;
+	import net.victoryang.drag.DragItem;
+	import net.victoryang.func.removedAllChildren;
+	import net.victoryang.managers.DragManager;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-2
 	 */
 	public class TestItem extends DragItem
@@ -38,7 +37,7 @@ package app.modules.panel.test
 			x = 110 * ( index % colNum );
 			y = 110 * int( index / colNum );
 			
-			removeAllChildren( this );
+			removedAllChildren( this );
 			
 			var txt:TextField = Text.getText(25, 0xffffff, "宋体");
 			txt.text = "NO." + ( index + 1 );

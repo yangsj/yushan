@@ -8,16 +8,16 @@ package victor.core
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	
-	import victor.framework.interfaces.IDisposable;
-	import victor.framework.manager.LoaderManager;
-	import victor.framework.manager.TickManager;
-	import victor.utils.calls;
-	import victor.utils.removedFromParent;
-
+	import net.victoryang.func.calls;
+	import net.victoryang.func.removedFromParent;
+	import net.victoryang.interfaces.IDisposable;
+	import net.victoryang.managers.LoaderManager;
+	import net.victoryang.managers.TickManager;
+	
 
 	/**
 	 * ……
-	 * @author 	yangsj
+	 * @author 	victor
 	 * 			2013-9-18
 	 */
 	public class AnimationClip extends Sprite implements IDisposable
@@ -203,7 +203,8 @@ package victor.core
 import flash.display.BitmapData;
 import flash.geom.Point;
 
-import victor.framework.interfaces.IDisposable;
+import net.victoryang.interfaces.IDisposable;
+
 
 class FrameVo implements IDisposable
 {

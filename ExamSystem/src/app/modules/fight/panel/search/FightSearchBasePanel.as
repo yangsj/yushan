@@ -5,26 +5,26 @@ package app.modules.fight.panel.search
 	import flash.events.MouseEvent;
 	import flash.utils.Dictionary;
 	
-	import app.base.BasePanel;
 	import app.core.Alert;
-	import app.core.Tips;
 	import app.modules.fight.events.FightOnlineEvent;
 	import app.modules.friend.model.FriendVo;
 	
-	import victor.core.scroll.GameScrollPanel;
-	import victor.utils.removeAllChildren;
+	import net.victoryang.components.Tips;
+	import net.victoryang.components.scroll.ScrollPanel;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-18
 	 */
 	public class FightSearchBasePanel extends BasePanel
 	{
 		public var listContainer:Sprite;
 		public var btnConfirm:InteractiveObject;
-		protected var gameScroll:GameScrollPanel;
+		protected var gameScroll:ScrollPanel;
 		protected var dictItems:Dictionary = new Dictionary();
 		
 		public function FightSearchBasePanel()
@@ -36,7 +36,7 @@ package app.modules.fight.panel.search
 		{
 			if ( list )
 			{
-				removeAllChildren( listContainer );
+				removedAllChildren( listContainer );
 				var length:int = list.length;
 				var item:FightSearchItem;
 				for ( var i:int = 0; i < length; i++ )
@@ -66,7 +66,7 @@ package app.modules.fight.panel.search
 		{
 			if ( gameScroll == null )
 			{
-				gameScroll = new GameScrollPanel();
+				gameScroll = new ScrollPanel();
 				gameScroll.setTargetAndHeight( listContainer,scrollHeight, scrollWidth );
 			}
 		}

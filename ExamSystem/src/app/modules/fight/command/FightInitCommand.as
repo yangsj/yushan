@@ -32,13 +32,13 @@ package app.modules.fight.command
 	import app.modules.fight.view.spell.SpellArea;
 	import app.modules.fight.view.spell.SpellAreaMediator;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.events.PanelEvent;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.framework.BaseCommand;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-27
 	 */
 	public class FightInitCommand extends BaseCommand

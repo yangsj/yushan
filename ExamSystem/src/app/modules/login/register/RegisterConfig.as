@@ -2,7 +2,7 @@ package app.modules.login.register
 {
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-26
 	 */
 	public class RegisterConfig

@@ -8,13 +8,13 @@ package app.modules.fight.panel.search
 	
 	import app.modules.friend.model.FriendVo;
 	
-	import victor.framework.core.BaseSprite;
-	import victor.utils.removedFromParent;
+	import net.victoryang.framework.BaseSprite;
+	import net.victoryang.func.removedFromParent;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-18
 	 */
 	public class FightSearchItem extends BaseSprite

@@ -7,17 +7,17 @@ package app.modules.fight.panel.result
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import app.base.BasePanel;
 	import app.modules.fight.events.FightOnlineEvent;
 	import app.modules.fight.model.FightEndVo;
 	import app.modules.util.Num;
 	
-	import victor.utils.removeAllChildren;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.removedAllChildren;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightOnlineResultPanel extends BasePanel
@@ -113,7 +113,7 @@ package app.modules.fight.panel.result
 		
 		private function setConNum( con:Sprite, num:int ):void
 		{
-			removeAllChildren( con );
+			removedAllChildren( con );
 			var shapeNum:Shape = Num.getShape( num );
 			shapeNum.x = -shapeNum.width * 0.5;
 			shapeNum.y = -shapeNum.height * 0.5;

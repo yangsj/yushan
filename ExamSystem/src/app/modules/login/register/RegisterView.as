@@ -6,16 +6,17 @@ package app.modules.login.register
 	import flash.text.TextField;
 	
 	import app.Language;
-	import app.core.Tips;
 	import app.modules.login.register.event.RegisterEvent;
 	import app.modules.login.register.vo.RegisterVo;
 	import app.modules.model.GenderType;
 	
-	import victor.core.TabButtonControl;
-	import app.base.BasePanel;
-	import victor.framework.debug.Debug;
-	import victor.utils.StringUitl;
-	import victor.utils.apps;
+	import net.victoryang.components.Tips;
+	import net.victoryang.core.TabButtons;
+	import net.victoryang.deubg.Debug;
+	import net.victoryang.framework.BasePanel;
+	import net.victoryang.func.apps;
+	import net.victoryang.uitl.StringUitl;
+	
 	
 	/**
 	 * ……
@@ -44,7 +45,7 @@ package app.modules.login.register
 	 * 一年级-六年级（预初）
 	 * 初一到初三
 	 * 高一到高三
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-4
 	 */
 	public class RegisterView extends BasePanel
@@ -71,7 +72,7 @@ package app.modules.login.register
 		public var checkboxArea:InteractiveObject;
 		public var checkboxGrade:InteractiveObject;
 		
-		private var tabControl:TabButtonControl;
+		private var tabControl:TabButtons;
 		private var areaPanel:CheckboxPanel;
 		private var gradePanel:CheckboxPanel;
 		
@@ -95,7 +96,7 @@ package app.modules.login.register
 			checkboxArea.addEventListener(MouseEvent.CLICK, checkboxAreaHandler );
 			checkboxGrade.addEventListener(MouseEvent.CLICK, checkboxGradeHandler );
 			
-			tabControl = new TabButtonControl( tabControlHandler );
+			tabControl = new TabButtons( tabControlHandler );
 			tabControl.addTarget( tab0, GenderType.MALE );
 			tabControl.addTarget( tab1, GenderType.FEMALE );
 			tabControl.setTargetByIndex( 0 );

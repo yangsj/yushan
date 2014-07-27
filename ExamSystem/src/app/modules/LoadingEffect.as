@@ -3,14 +3,13 @@ package app.modules
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	
-	import victor.utils.apps;
-	
-	import victor.framework.core.ViewStruct;
+	import net.victoryang.framework.ViewStruct;
+	import net.victoryang.func.apps;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-4
 	 */
 	public class LoadingEffect extends Sprite

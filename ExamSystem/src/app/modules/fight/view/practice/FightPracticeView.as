@@ -6,7 +6,7 @@ package app.modules.fight.view.practice
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-11-20
 	 */
 	public class FightPracticeView extends FightAloneView

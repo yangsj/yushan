@@ -2,12 +2,12 @@ package app
 {
 	import app.modules.login.login.vo.LoginVo;
 	
-	import victor.framework.manager.LoaderManager;
-	import victor.utils.apps;
+	import net.victoryang.func.apps;
+	import net.victoryang.managers.LoaderManager;
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-27
 	 */
 	public class GameConfig

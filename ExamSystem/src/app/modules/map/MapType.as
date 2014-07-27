@@ -3,7 +3,7 @@ package app.modules.map
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-23
 	 */
 	public class MapType

@@ -5,7 +5,7 @@ package victor.framework.socket {
 	import org.apache.thrift.FFUtil;
 
 	/**
-	 * @author fireyang
+	 * @author victor
 	 */
 	public class PacketParse {
 		private static var _seq : int = 1;

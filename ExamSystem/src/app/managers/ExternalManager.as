@@ -6,7 +6,7 @@ package app.managers
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-18
 	 */
 	public class ExternalManager

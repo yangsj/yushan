@@ -1,7 +1,6 @@
 package app.modules.panel.personal.service
 {
 	import app.GameConfig;
-	import app.core.Tips;
 	import app.modules.login.register.vo.RegisterVo;
 	import app.modules.panel.personal.events.PersonalEvent;
 	import app.modules.panel.personal.model.PersonalModel;
@@ -14,14 +13,16 @@ package app.modules.panel.personal.service
 	import ff.modify_user_info_ret_t;
 	import ff.server_cmd_e;
 	
+	import net.victoryang.components.Tips;
+	
+	import victor.core.MD5;
 	import victor.framework.core.BaseService;
 	import victor.framework.socket.SocketResp;
-	import victor.core.MD5;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-12
 	 */
 	public class PersonalService extends BaseService

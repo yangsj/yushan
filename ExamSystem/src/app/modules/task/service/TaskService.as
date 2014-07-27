@@ -2,7 +2,6 @@ package app.modules.task.service
 {
 	import flash.utils.Dictionary;
 	
-	import app.core.Tips;
 	import app.modules.ViewName;
 	import app.modules.fight.model.FightModel;
 	import app.modules.main.model.MainModel;
@@ -23,13 +22,15 @@ package app.modules.task.service
 	import ff.task_info_t;
 	import ff.task_t;
 	
+	import net.victoryang.components.Tips;
+	
 	import victor.framework.core.BaseService;
 	import victor.framework.socket.SocketResp;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-9-6
 	 */
 	public class TaskService extends BaseService

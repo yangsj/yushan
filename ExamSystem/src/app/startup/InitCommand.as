@@ -12,7 +12,6 @@ package app.startup
 	import app.modules.map.command.MapInitCommand;
 	import app.modules.model.CommonModel;
 	import app.modules.model.PackModel;
-	import app.modules.panel.PanelLoading;
 	import app.modules.panel.personal.command.PersonalInitCommand;
 	import app.modules.panel.rank.command.RankInitCommand;
 	import app.modules.panel.share.ShareWeiboInitCommand;
@@ -21,15 +20,16 @@ package app.startup
 	import app.modules.serivce.PackService;
 	import app.modules.task.command.TaskInitCommand;
 	
-	import victor.framework.core.BaseCommand;
-	import victor.framework.drag.DragManager;
-	import victor.framework.events.PanelEvent;
-	import victor.framework.events.ViewEvent;
+	import net.victoryang.events.PanelEvent;
+	import net.victoryang.events.ViewEvent;
+	import net.victoryang.framework.BaseCommand;
+	import net.victoryang.framework.PanelLoading;
+	import net.victoryang.managers.DragManager;
 	
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-8-28
 	 */
 	public class InitCommand extends BaseCommand
@@ -98,7 +98,7 @@ package app.startup
 			injectActor( PackService );
 			
 			////
-			PanelLoading.instance.setFun( loadStartHandler, loadEnfHandler );
+			PanelLoading.setFun( loadStartHandler, loadEnfHandler );
 			
 		}
 		

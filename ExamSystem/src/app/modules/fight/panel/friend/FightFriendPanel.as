@@ -4,7 +4,7 @@ package app.modules.fight.panel.friend
 	
 	/**
 	 * ……
-	 * @author 	yangsj 
+	 * @author 	victor 
 	 * 			2013-10-17
 	 */
 	public class FightFriendPanel extends FightSearchBasePanel
