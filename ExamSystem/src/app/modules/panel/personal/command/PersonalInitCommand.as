@@ -10,7 +10,7 @@ package app.modules.panel.personal.command
 	import app.modules.panel.personal.view.PersonalMediator;
 	import app.modules.panel.personal.view.PersonalPanel;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	

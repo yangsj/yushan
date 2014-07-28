@@ -5,7 +5,7 @@ package app.data.item
 	import app.GameConfig;
 	import app.data.vo.LevelExpItemVo;
 	
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.uitl.MathUtil;
 	
 	/**
 	 * ……

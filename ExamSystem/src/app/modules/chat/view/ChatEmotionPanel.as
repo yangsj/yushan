@@ -6,8 +6,8 @@ package app.modules.chat.view
 	
 	import app.modules.chat.event.ChatEvent;
 	
-	import net.victoryang.framework.BaseView;
-	import net.victoryang.func.apps;
+	import victoryang.framework.BaseView;
+	import victoryang.func.apps;
 	
 	import victor.core.AnimationClip;
 	

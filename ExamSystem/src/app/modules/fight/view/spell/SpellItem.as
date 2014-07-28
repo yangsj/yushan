@@ -7,7 +7,7 @@ package app.modules.fight.view.spell
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.model.LetterBubbleVo;
 	
-	import net.victoryang.interfaces.IDisposable;
+	import victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……

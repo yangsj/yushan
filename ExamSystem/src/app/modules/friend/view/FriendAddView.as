@@ -8,7 +8,7 @@ package app.modules.friend.view
 	
 	import app.modules.friend.event.FriendEvent;
 	
-	import net.victoryang.framework.BasePanel;
+	import victoryang.framework.BasePanel;
 	
 	
 	/**

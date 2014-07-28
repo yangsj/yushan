@@ -1,6 +1,6 @@
 package app.modules.login.register.event
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	/**
 	 * ……

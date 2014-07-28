@@ -4,10 +4,10 @@ package app.modules.login.command
 	import app.modules.ViewName;
 	import app.sound.SoundManager;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.events.LoadEvent;
-	import net.victoryang.framework.BaseCommand;
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.deubg.Debug;
+	import victoryang.events.LoadEvent;
+	import victoryang.framework.BaseCommand;
+	import victoryang.managers.LoaderManager;
 	
 	
 	

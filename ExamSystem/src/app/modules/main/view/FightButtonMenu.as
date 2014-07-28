@@ -10,9 +10,9 @@ package app.modules.main.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.apps;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.apps;
 	
 	
 	/**

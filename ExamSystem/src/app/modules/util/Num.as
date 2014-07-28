@@ -7,7 +7,7 @@ package app.modules.util
 	import flash.geom.Matrix;
 	import flash.utils.Dictionary;
 	
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.managers.LoaderManager;
 	
 	/**
 	 * ……

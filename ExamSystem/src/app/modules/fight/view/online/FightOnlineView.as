@@ -12,9 +12,9 @@ package app.modules.fight.view.online
 	import app.modules.fight.view.item.LetterBubble;
 	import app.modules.model.vo.ItemType;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.components.Tips;
+	import victoryang.deubg.Debug;
+	import victoryang.func.removedAllChildren;
 	
 	
 	/**

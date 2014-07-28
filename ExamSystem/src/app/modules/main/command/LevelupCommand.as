@@ -2,8 +2,8 @@ package app.modules.main.command
 {
 	import app.data.GameData;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.components.Tips;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

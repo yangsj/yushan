@@ -1,6 +1,6 @@
 package app.events
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 
 	/**
 	 * ……

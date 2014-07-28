@@ -9,13 +9,13 @@ package app.modules.panel.test
 	
 	import app.core.Alert;
 	
-	import net.victoryang.components.scroll.ScrollPanel;
-	import net.victoryang.core.TabButtons;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.calls;
-	import net.victoryang.managers.LoaderManager;
-	import net.victoryang.uitl.HtmlText;
+	import victoryang.components.scroll.ScrollPanel;
+	import victoryang.core.TabButtons;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.calls;
+	import victoryang.managers.LoaderManager;
+	import victoryang.uitl.HtmlText;
 	
 	/**
 	 * ……

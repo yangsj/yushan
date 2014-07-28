@@ -4,7 +4,7 @@ package app.modules.map.main
 	import app.modules.map.event.MapEvent;
 	import app.modules.map.model.MapModel;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

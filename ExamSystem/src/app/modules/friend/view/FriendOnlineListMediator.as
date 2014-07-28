@@ -2,7 +2,7 @@ package app.modules.friend.view
 {
 	import app.modules.ViewName;
 	
-	import net.victoryang.events.PanelEvent;
+	import victoryang.events.PanelEvent;
 	
 	/**
 	 * ……

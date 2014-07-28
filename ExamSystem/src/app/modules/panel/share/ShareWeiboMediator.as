@@ -2,7 +2,7 @@ package app.modules.panel.share
 {
 	import app.managers.ExternalManager;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

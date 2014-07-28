@@ -7,8 +7,8 @@ package app.modules.friend.view
 	import app.modules.friend.model.FriendVo;
 	import app.modules.friend.service.FriendService;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.components.Tips;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

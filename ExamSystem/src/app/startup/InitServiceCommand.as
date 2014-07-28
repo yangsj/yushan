@@ -5,8 +5,8 @@ package app.startup
 	import app.managers.ExternalManager;
 	import app.modules.LoadingEffect;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BaseCommand;
 	
 	import victor.framework.events.ServiceEvent;
 	import victor.framework.socket.ISocketManager;

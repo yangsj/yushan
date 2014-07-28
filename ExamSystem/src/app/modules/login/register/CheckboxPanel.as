@@ -6,13 +6,13 @@ package app.modules.login.register
 	import flash.display.MovieClip;
 	import flash.events.MouseEvent;
 	
-	import net.victoryang.core.TabButtons;
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.apps;
-	import net.victoryang.func.calls;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.interfaces.IDisposable;
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.core.TabButtons;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.apps;
+	import victoryang.func.calls;
+	import victoryang.func.removedFromParent;
+	import victoryang.interfaces.IDisposable;
+	import victoryang.uitl.MathUtil;
 	
 	
 	/**

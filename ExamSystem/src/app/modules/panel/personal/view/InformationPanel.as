@@ -13,11 +13,11 @@ package app.modules.panel.personal.view
 	import app.modules.model.GenderType;
 	import app.modules.panel.personal.events.PersonalEvent;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.core.TabButtons;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.uitl.StringUitl;
+	import victoryang.components.Tips;
+	import victoryang.core.TabButtons;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BasePanel;
+	import victoryang.uitl.StringUitl;
 	
 	
 	/**

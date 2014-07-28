@@ -9,11 +9,11 @@ package app.modules.fight.view.prop.item
 	import app.events.PackEvent;
 	import app.modules.model.vo.ItemVo;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.core.Reflection;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.managers.LoaderManager;
-	import net.victoryang.managers.TickManager;
+	import victoryang.components.Tips;
+	import victoryang.core.Reflection;
+	import victoryang.func.removedFromParent;
+	import victoryang.managers.LoaderManager;
+	import victoryang.managers.TickManager;
 	
 	
 	/**

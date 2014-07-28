@@ -2,7 +2,7 @@ package app.data
 {
 	import app.GameConfig;
 	
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.uitl.MathUtil;
 	
 	import org.robotlegs.mvcs.Actor;
 	

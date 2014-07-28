@@ -8,11 +8,11 @@ package victor.core
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	
-	import net.victoryang.func.calls;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.interfaces.IDisposable;
-	import net.victoryang.managers.LoaderManager;
-	import net.victoryang.managers.TickManager;
+	import victoryang.func.calls;
+	import victoryang.func.removedFromParent;
+	import victoryang.interfaces.IDisposable;
+	import victoryang.managers.LoaderManager;
+	import victoryang.managers.TickManager;
 	
 
 	/**
@@ -203,7 +203,7 @@ package victor.core
 import flash.display.BitmapData;
 import flash.geom.Point;
 
-import net.victoryang.interfaces.IDisposable;
+import victoryang.interfaces.IDisposable;
 
 
 class FrameVo implements IDisposable

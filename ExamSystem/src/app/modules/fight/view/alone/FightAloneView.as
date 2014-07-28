@@ -9,8 +9,8 @@ package app.modules.fight.view.alone
 	import app.modules.fight.view.FightBaseView;
 	import app.modules.fight.view.item.LetterBubble;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.components.Tips;
+	import victoryang.func.removedAllChildren;
 	
 	/**
 	 * ……

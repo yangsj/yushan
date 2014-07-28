@@ -8,8 +8,8 @@ package app.modules.fight.panel.ready
 	
 	import app.modules.fight.model.FightMatchingVo;
 	
-	import net.victoryang.core.Reflection;
-	import net.victoryang.interfaces.IDisposable;
+	import victoryang.core.Reflection;
+	import victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……

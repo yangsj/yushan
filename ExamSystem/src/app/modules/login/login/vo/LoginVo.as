@@ -1,7 +1,7 @@
 package app.modules.login.login.vo
 {
 	
-	import net.victoryang.managers.LocalStoreManager;
+	import victoryang.managers.LocalStoreManager;
 	
 	/**
 	 * ……

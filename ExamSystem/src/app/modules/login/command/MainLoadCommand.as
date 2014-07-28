@@ -3,11 +3,11 @@ package app.modules.login.command
 	import app.modules.ViewName;
 	import app.modules.main.model.MainModel;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.events.LoadEvent;
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseCommand;
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.deubg.Debug;
+	import victoryang.events.LoadEvent;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseCommand;
+	import victoryang.managers.LoaderManager;
 	
 	
 	

@@ -5,8 +5,8 @@ package app.modules.panel.personal.view
 	import app.modules.panel.personal.model.PersonalModel;
 	import app.modules.panel.personal.service.PersonalService;
 	
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

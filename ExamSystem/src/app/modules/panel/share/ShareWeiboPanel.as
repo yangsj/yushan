@@ -3,7 +3,7 @@ package app.modules.panel.share
 	import flash.display.InteractiveObject;
 	import flash.events.MouseEvent;
 	
-	import net.victoryang.framework.BasePanel;
+	import victoryang.framework.BasePanel;
 	
 	
 	/**

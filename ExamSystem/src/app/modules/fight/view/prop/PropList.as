@@ -8,7 +8,7 @@ package app.modules.fight.view.prop
 	import app.modules.model.vo.ItemType;
 	import app.modules.model.vo.ItemVo;
 	
-	import net.victoryang.components.Tips;
+	import victoryang.components.Tips;
 	
 	
 	/**

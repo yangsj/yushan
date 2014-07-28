@@ -20,11 +20,11 @@ package app.startup
 	import app.modules.serivce.PackService;
 	import app.modules.task.command.TaskInitCommand;
 	
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BaseCommand;
-	import net.victoryang.framework.PanelLoading;
-	import net.victoryang.managers.DragManager;
+	import victoryang.events.PanelEvent;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BaseCommand;
+	import victoryang.framework.PanelLoading;
+	import victoryang.managers.DragManager;
 	
 	
 	/**

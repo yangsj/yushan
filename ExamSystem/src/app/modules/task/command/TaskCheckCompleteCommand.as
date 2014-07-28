@@ -3,8 +3,8 @@ package app.modules.task.command
 	import app.modules.task.model.TaskModel;
 	import app.modules.task.model.TaskVo;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.components.Tips;
+	import victoryang.framework.BaseCommand;
 	
 
 	/**

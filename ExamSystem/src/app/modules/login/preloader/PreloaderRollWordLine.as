@@ -10,12 +10,12 @@ package app.modules.login.preloader
 	
 	import app.Language;
 	
-	import net.victoryang.components.Text;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.interfaces.IDisposable;
-	import net.victoryang.uitl.BitmapUtil;
+	import victoryang.components.Text;
+	import victoryang.deubg.Debug;
+	import victoryang.func.removedAllChildren;
+	import victoryang.func.removedFromParent;
+	import victoryang.interfaces.IDisposable;
+	import victoryang.uitl.BitmapUtil;
 	
 	
 	/**

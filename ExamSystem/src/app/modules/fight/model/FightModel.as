@@ -4,7 +4,7 @@ package app.modules.fight.model
 	
 	import app.modules.fight.view.spell.SpellVo;
 	
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.uitl.MathUtil;
 	
 	import org.robotlegs.mvcs.Actor;
 	

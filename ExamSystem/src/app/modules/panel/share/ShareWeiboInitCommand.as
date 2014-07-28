@@ -2,7 +2,7 @@ package app.modules.panel.share
 {
 	import app.modules.ViewName;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

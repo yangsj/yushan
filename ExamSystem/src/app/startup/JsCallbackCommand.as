@@ -3,8 +3,8 @@ package app.startup
 	import app.managers.ExternalManager;
 	import app.modules.serivce.CommonService;
 	
-	import net.victoryang.core.SystemInfo;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.core.SystemInfo;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

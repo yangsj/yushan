@@ -4,7 +4,7 @@ package app.modules.login.register
 	import app.modules.login.register.event.RegisterEvent;
 	import app.modules.login.service.LoginService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

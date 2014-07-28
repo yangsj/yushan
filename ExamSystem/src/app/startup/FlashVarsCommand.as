@@ -3,8 +3,8 @@ package app.startup
 	import app.GameConfig;
 	import app.events.GameEvent;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

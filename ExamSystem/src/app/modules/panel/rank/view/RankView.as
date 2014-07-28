@@ -6,10 +6,10 @@ package app.modules.panel.rank.view
 	import app.modules.panel.rank.events.RankEvent;
 	import app.modules.panel.rank.model.RankVo;
 	
-	import net.victoryang.components.scroll.ScrollPanel;
-	import net.victoryang.core.TabButtons;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.components.scroll.ScrollPanel;
+	import victoryang.core.TabButtons;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedAllChildren;
 	
 	/**
 	 * ……

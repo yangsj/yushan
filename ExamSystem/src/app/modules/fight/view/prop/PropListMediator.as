@@ -11,9 +11,9 @@ package app.modules.fight.view.prop
 	import app.modules.model.vo.ItemVo;
 	import app.modules.serivce.PackService;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BaseMediator;
-	import net.victoryang.managers.TickManager;
+	import victoryang.components.Tips;
+	import victoryang.framework.BaseMediator;
+	import victoryang.managers.TickManager;
 	
 	
 	/**

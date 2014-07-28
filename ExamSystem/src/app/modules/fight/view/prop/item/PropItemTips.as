@@ -8,11 +8,11 @@ package app.modules.fight.view.prop.item
 	
 	import app.modules.model.vo.ItemVo;
 	
-	import net.victoryang.components.Text;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.apps;
-	import net.victoryang.interfaces.IDisposable;
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.components.Text;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.apps;
+	import victoryang.interfaces.IDisposable;
+	import victoryang.uitl.MathUtil;
 	
 	
 	/**

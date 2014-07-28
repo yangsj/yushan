@@ -3,10 +3,10 @@ package app.modules.panel.test
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
 	
-	import net.victoryang.components.Text;
-	import net.victoryang.drag.DragItem;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.managers.DragManager;
+	import victoryang.components.Text;
+	import victoryang.drag.DragItem;
+	import victoryang.func.removedAllChildren;
+	import victoryang.managers.DragManager;
 	
 	
 	/**

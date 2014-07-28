@@ -26,15 +26,15 @@ package app.modules.fight.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BaseLoadView;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.apps;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.managers.TickManager;
-	import net.victoryang.uitl.HtmlText;
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.components.Tips;
+	import victoryang.framework.BaseLoadView;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.apps;
+	import victoryang.func.removedAllChildren;
+	import victoryang.func.removedFromParent;
+	import victoryang.managers.TickManager;
+	import victoryang.uitl.HtmlText;
+	import victoryang.uitl.MathUtil;
 	
 	
 	/**

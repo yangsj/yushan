@@ -20,7 +20,7 @@ package app.modules.friend.service
 	import ff.notify_add_friend_ret_t;
 	import ff.server_cmd_e;
 	
-	import net.victoryang.components.Tips;
+	import victoryang.components.Tips;
 	
 	import victor.framework.core.BaseService;
 	import victor.framework.socket.SocketResp;

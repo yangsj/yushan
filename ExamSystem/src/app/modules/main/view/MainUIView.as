@@ -13,13 +13,13 @@ package app.modules.main.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.core.Numeric;
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BaseView;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.managers.LoaderManager;
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.core.Numeric;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BaseView;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.removedAllChildren;
+	import victoryang.managers.LoaderManager;
+	import victoryang.uitl.MathUtil;
 	
 	
 	/**

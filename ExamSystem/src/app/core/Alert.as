@@ -11,11 +11,11 @@ package app.core
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.core.Reflection;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.apps;
-	import net.victoryang.func.calls;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.core.Reflection;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.apps;
+	import victoryang.func.calls;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

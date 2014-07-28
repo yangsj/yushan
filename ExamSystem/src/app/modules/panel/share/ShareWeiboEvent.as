@@ -1,6 +1,6 @@
 package app.modules.panel.share
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	/**
 	 * ……

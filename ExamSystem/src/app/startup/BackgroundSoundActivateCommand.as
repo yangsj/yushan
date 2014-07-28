@@ -4,8 +4,8 @@ package app.startup
 	
 	import app.sound.SoundManager;
 	
-	import net.victoryang.framework.BaseCommand;
-	import net.victoryang.func.apps;
+	import victoryang.framework.BaseCommand;
+	import victoryang.func.apps;
 	
 	
 	

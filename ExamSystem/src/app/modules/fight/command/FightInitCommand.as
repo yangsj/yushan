@@ -32,8 +32,8 @@ package app.modules.fight.command
 	import app.modules.fight.view.spell.SpellArea;
 	import app.modules.fight.view.spell.SpellAreaMediator;
 	
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

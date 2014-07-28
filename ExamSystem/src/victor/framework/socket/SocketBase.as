@@ -11,7 +11,7 @@ package victor.framework.socket
 	import flash.utils.Endian;
 	import flash.utils.getTimer;
 	
-	import net.victoryang.deubg.Debug;
+	import victoryang.deubg.Debug;
 	
 	/**
 	 * @author victor

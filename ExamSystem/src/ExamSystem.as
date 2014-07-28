@@ -8,7 +8,7 @@ package
 	import app.AppContext;
 	import app.GameConfig;
 	
-	import net.victoryang.func.apps;
+	import victoryang.func.apps;
 	
 	
 	[SWF( width = "960", height = "560", frameRate = "60" )]

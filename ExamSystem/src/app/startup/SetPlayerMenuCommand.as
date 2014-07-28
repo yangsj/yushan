@@ -2,10 +2,10 @@ package app.startup
 {
 	import app.GameConfig;
 	
-	import net.victoryang.core.ContextMenuDefine;
-	import net.victoryang.core.SystemInfo;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.core.ContextMenuDefine;
+	import victoryang.core.SystemInfo;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

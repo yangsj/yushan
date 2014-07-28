@@ -28,8 +28,8 @@ package app.modules.fight.service
 	import ff.server_cmd_e;
 	import ff.user_status_ret_t;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.events.PanelEvent;
+	import victoryang.components.Tips;
+	import victoryang.events.PanelEvent;
 	
 	import victor.framework.core.BaseService;
 	import victor.framework.socket.SocketResp;

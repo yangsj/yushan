@@ -4,8 +4,8 @@ package app.core
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	
-	import net.victoryang.interfaces.IDisposable;
-	import net.victoryang.managers.TickManager;
+	import victoryang.interfaces.IDisposable;
+	import victoryang.managers.TickManager;
 	
 	
 	/**

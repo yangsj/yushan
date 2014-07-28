@@ -3,12 +3,12 @@ package app.startup
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BaseCommand;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.interfaces.IViewBase;
+	import victoryang.deubg.Debug;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BaseCommand;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.removedFromParent;
+	import victoryang.interfaces.IViewBase;
 	
 
 	/**

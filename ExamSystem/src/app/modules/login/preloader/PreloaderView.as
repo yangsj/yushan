@@ -4,12 +4,12 @@ package app.modules.login.preloader
 	import flash.events.Event;
 	import flash.text.TextField;
 	
-	import net.victoryang.components.Text;
-	import net.victoryang.events.LoadEvent;
-	import net.victoryang.framework.BaseScene;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.apps;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.components.Text;
+	import victoryang.events.LoadEvent;
+	import victoryang.framework.BaseScene;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.apps;
+	import victoryang.func.removedFromParent;
 	
 
 

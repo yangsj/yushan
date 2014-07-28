@@ -5,7 +5,7 @@ package app.modules.friend.command
 	import app.modules.friend.model.FriendModel;
 	import app.modules.friend.service.FriendService;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

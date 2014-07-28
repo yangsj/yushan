@@ -8,10 +8,10 @@ package app.modules.friend.view
 	import app.modules.ViewName;
 	import app.modules.friend.model.FriendVo;
 	
-	import net.victoryang.components.scroll.ScrollPanel;
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.components.scroll.ScrollPanel;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedAllChildren;
 	
 	
 	/**

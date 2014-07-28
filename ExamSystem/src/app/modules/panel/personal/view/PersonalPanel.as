@@ -8,8 +8,8 @@ package app.modules.panel.personal.view
 	import app.data.PlayerSelfVo;
 	import app.modules.ViewName;
 	
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BasePanel;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BasePanel;
 	
 	
 	/**

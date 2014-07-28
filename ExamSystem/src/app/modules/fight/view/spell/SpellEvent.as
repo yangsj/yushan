@@ -1,6 +1,6 @@
 package app.modules.fight.view.spell
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	/**
 	 * ……

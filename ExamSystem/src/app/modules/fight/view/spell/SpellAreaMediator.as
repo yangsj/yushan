@@ -5,7 +5,7 @@ package app.modules.fight.view.spell
 	import app.modules.fight.model.LetterBubbleVo;
 	import app.modules.fight.service.FightAloneService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	/**
 	 * ……

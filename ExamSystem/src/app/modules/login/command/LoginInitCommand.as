@@ -9,7 +9,7 @@ package app.modules.login.command
 	import app.modules.login.register.RegisterView;
 	import app.modules.login.service.LoginService;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

@@ -5,7 +5,7 @@ package app.modules.map.main
 	import app.modules.map.main.item.MapItem;
 	import app.modules.map.model.MapVo;
 	
-	import net.victoryang.framework.BaseScene;
+	import victoryang.framework.BaseScene;
 	
 	/**
 	 * ……

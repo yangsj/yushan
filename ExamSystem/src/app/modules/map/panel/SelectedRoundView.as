@@ -11,10 +11,10 @@ package app.modules.map.panel
 	import app.modules.map.model.MapVo;
 	import app.modules.map.panel.item.GroupItem;
 	
-	import net.victoryang.core.Reflection;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.core.Reflection;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedAllChildren;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

@@ -1,6 +1,6 @@
 package app.modules.panel.test
 {
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

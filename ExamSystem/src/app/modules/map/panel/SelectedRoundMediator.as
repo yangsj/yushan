@@ -7,8 +7,8 @@ package app.modules.map.panel
 	import app.modules.map.panel.event.SelectedRoundEvent;
 	import app.modules.map.service.MapService;
 	
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

@@ -8,7 +8,7 @@ package app.modules.map.command
 	import app.modules.map.panel.SelectedRoundView;
 	import app.modules.map.service.MapService;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

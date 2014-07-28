@@ -13,12 +13,12 @@ package app.modules.main.view
 	import app.modules.task.event.TaskEvent;
 	import app.modules.task.service.TaskService;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.events.ViewEvent;
-	import net.victoryang.framework.BaseMediator;
-	import net.victoryang.managers.TickManager;
+	import victoryang.components.Tips;
+	import victoryang.deubg.Debug;
+	import victoryang.events.PanelEvent;
+	import victoryang.events.ViewEvent;
+	import victoryang.framework.BaseMediator;
+	import victoryang.managers.TickManager;
 	
 	
 	/**

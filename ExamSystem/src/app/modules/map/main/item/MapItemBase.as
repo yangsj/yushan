@@ -6,7 +6,7 @@ package app.modules.map.main.item
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.interfaces.IDisposable;
+	import victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……

@@ -2,8 +2,8 @@ package app.modules.login.preloader
 {
 	import app.events.GameEvent;
 	
-	import net.victoryang.events.LoadEvent;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.events.LoadEvent;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

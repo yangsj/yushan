@@ -5,7 +5,7 @@ package app.modules.fight.panel.search
 	import app.modules.friend.model.FriendModel;
 	import app.modules.friend.model.FriendVo;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

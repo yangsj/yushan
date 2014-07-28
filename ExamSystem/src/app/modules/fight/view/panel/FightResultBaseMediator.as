@@ -4,7 +4,7 @@ package app.modules.fight.view.panel
 	import app.modules.fight.model.FightModel;
 	import app.modules.fight.service.FightAloneService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

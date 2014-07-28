@@ -8,8 +8,8 @@ package app.modules.fight.panel.search
 	
 	import app.modules.friend.model.FriendVo;
 	
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

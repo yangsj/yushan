@@ -2,7 +2,7 @@ package app.startup
 {
 	import app.managers.FontManager;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

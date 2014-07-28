@@ -4,7 +4,7 @@ package app.modules.fight.view.alone
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.view.FightBaseMediator;
 	
-	import net.victoryang.uitl.HtmlText;
+	import victoryang.uitl.HtmlText;
 	
 	
 	/**

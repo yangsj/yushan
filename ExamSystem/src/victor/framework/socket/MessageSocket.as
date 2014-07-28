@@ -7,7 +7,7 @@ package victor.framework.socket
 	import flash.utils.Dictionary;
 	import flash.utils.getTimer;
 	
-	import net.victoryang.deubg.Debug;
+	import victoryang.deubg.Debug;
 	
 	import org.apache.thrift.FFUtil;
 	

@@ -5,8 +5,8 @@ package app.modules.panel.rank.view
 	
 	import app.modules.panel.rank.model.RankVo;
 	
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.uitl.HtmlText;
+	import victoryang.framework.BaseSprite;
+	import victoryang.uitl.HtmlText;
 	
 	
 	/**

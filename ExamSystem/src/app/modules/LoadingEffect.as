@@ -3,8 +3,8 @@ package app.modules
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.apps;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.apps;
 	
 	
 	/**

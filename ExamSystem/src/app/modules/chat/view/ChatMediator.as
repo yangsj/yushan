@@ -9,7 +9,7 @@ package app.modules.chat.view
 	import app.modules.chat.model.ChatVo;
 	import app.modules.chat.service.ChatService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	/**
 	 * ……

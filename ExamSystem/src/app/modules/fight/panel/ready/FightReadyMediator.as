@@ -4,9 +4,9 @@ package app.modules.fight.panel.ready
 	import app.modules.fight.model.FightReadyModel;
 	import app.modules.fight.service.FightOnlineService;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.deubg.Debug;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

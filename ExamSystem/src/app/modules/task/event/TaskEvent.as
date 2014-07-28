@@ -1,6 +1,6 @@
 package app.modules.task.event
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	
 	/**

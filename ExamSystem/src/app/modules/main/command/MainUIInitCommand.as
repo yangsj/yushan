@@ -5,7 +5,7 @@ package app.modules.main.command
 	import app.modules.main.view.MainUIMediator;
 	import app.modules.main.view.MainUIView;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

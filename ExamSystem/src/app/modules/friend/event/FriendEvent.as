@@ -1,6 +1,6 @@
 package app.modules.friend.event
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	
 	/**

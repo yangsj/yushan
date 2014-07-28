@@ -11,7 +11,7 @@ package app.modules.friend.command
 	import app.modules.friend.view.FriendOnlineListView;
 	import app.modules.friend.view.FriendView;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

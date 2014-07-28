@@ -1,6 +1,6 @@
 package app.modules.panel.rank.events
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	
 	/**

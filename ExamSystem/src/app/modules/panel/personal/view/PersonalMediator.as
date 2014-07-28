@@ -2,7 +2,7 @@ package app.modules.panel.personal.view
 {
 	import app.modules.model.PackModel;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

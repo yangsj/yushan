@@ -1,6 +1,6 @@
 package app.modules.map.event
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	
 	/**

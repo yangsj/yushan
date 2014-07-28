@@ -5,7 +5,7 @@ package app.startup
 	import app.modules.main.model.MainModel;
 	import app.modules.map.model.MapModel;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

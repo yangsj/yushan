@@ -13,7 +13,7 @@ package app.modules.panel.personal.service
 	import ff.modify_user_info_ret_t;
 	import ff.server_cmd_e;
 	
-	import net.victoryang.components.Tips;
+	import victoryang.components.Tips;
 	
 	import victor.core.MD5;
 	import victor.framework.core.BaseService;

@@ -1,6 +1,6 @@
 package app.modules.fight.panel.ready
 {
-	import net.victoryang.events.BaseEvent;
+	import victoryang.events.BaseEvent;
 	
 	
 	/**

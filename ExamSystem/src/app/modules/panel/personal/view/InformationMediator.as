@@ -7,7 +7,7 @@ package app.modules.panel.personal.view
 	import app.modules.panel.personal.events.PersonalEvent;
 	import app.modules.panel.personal.service.PersonalService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

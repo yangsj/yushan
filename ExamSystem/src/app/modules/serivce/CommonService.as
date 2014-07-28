@@ -13,8 +13,8 @@ package app.modules.serivce
 	import ff.share_weibo_ok_req_t;
 	import ff.update_property_ret_t;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.deubg.Debug;
+	import victoryang.components.Tips;
+	import victoryang.deubg.Debug;
 	
 	import victor.framework.core.BaseService;
 	import victor.framework.socket.SocketResp;

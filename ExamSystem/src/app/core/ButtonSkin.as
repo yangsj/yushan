@@ -2,7 +2,7 @@ package app.core
 {
 	import flash.display.InteractiveObject;
 	
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.managers.LoaderManager;
 	
 	/**
 	 * ……

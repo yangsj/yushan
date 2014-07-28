@@ -9,10 +9,10 @@ package app.modules.fight.panel.search
 	import app.modules.fight.events.FightOnlineEvent;
 	import app.modules.friend.model.FriendVo;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.components.scroll.ScrollPanel;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.components.Tips;
+	import victoryang.components.scroll.ScrollPanel;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedAllChildren;
 	
 	
 	/**

@@ -13,9 +13,9 @@ package app.modules.login.login
 	import app.modules.login.login.event.LoginEvent;
 	import app.modules.login.login.vo.LoginVo;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.apps;
+	import victoryang.components.Tips;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.apps;
 	
 	
 	/**

@@ -7,7 +7,7 @@ package app.modules.fight.panel.friend
 	import app.modules.friend.model.FriendVo;
 	import app.modules.friend.service.FriendService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

@@ -15,10 +15,10 @@ package app.modules.task.view
 	import app.modules.task.event.TaskEvent;
 	import app.modules.task.model.TaskVo;
 	
-	import net.victoryang.components.Text;
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.components.Text;
+	import victoryang.components.Tips;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

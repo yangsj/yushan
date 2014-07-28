@@ -8,8 +8,8 @@ package app.modules.map.panel.item
 	import app.modules.map.model.RoundVo;
 	import app.modules.map.panel.event.SelectedRoundEvent;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.core.Reflection;
+	import victoryang.components.Tips;
+	import victoryang.core.Reflection;
 	
 	
 	/**

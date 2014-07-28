@@ -2,10 +2,10 @@ package app.modules.fight.view.item
 {
 	import flash.geom.Point;
 	
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.framework.BaseSprite;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.removedAllChildren;
+	import victoryang.func.removedFromParent;
 	
 	import victor.core.AnimationClip;
 	

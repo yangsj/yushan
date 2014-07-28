@@ -16,7 +16,7 @@ package app
 	import app.startup.SetPlayerMenuCommand;
 	import app.startup.ShowLoginCommand;
 	
-	import net.victoryang.framework.BaseEntry;
+	import victoryang.framework.BaseEntry;
 	
 	import org.robotlegs.base.ContextEvent;
 	

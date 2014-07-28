@@ -5,7 +5,7 @@ package app.modules.panel.rank.view
 	import app.modules.panel.rank.model.RankVo;
 	import app.modules.panel.rank.service.RankService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

@@ -13,7 +13,7 @@ package app.modules.map.main.item
 	import app.modules.map.event.MapEvent;
 	import app.modules.map.model.MapVo;
 	
-	import net.victoryang.components.Tips;
+	import victoryang.components.Tips;
 	
 	/**
 	 * ……

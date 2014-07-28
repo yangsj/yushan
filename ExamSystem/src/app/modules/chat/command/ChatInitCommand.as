@@ -6,7 +6,7 @@ package app.modules.chat.command
 	import app.modules.chat.view.ChatMediator;
 	import app.modules.chat.view.ChatView;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

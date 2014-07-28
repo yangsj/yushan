@@ -10,8 +10,8 @@ package app.modules.fight.view.panel
 	import app.modules.fight.model.FightEndVo;
 	import app.modules.util.Num;
 	
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedAllChildren;
 	
 
 	/**

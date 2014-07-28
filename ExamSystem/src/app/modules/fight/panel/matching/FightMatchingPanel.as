@@ -7,11 +7,11 @@ package app.modules.fight.panel.matching
 	import app.data.GameData;
 	import app.modules.model.GenderType;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.managers.TickManager;
-	import net.victoryang.uitl.HtmlText;
+	import victoryang.components.Tips;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedFromParent;
+	import victoryang.managers.TickManager;
+	import victoryang.uitl.HtmlText;
 	
 	
 	/**

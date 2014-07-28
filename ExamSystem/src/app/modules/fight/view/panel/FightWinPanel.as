@@ -2,7 +2,7 @@ package app.modules.fight.view.panel
 {
 	import app.modules.fight.model.FightEndVo;
 	
-	import net.victoryang.uitl.UtilsFilter;
+	import victoryang.uitl.UtilsFilter;
 	
 	/**
 	 * ……

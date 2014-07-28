@@ -23,14 +23,14 @@ package app.modules.chat.view
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.components.scroll.ScrollBar;
-	import net.victoryang.core.TabButtons;
-	import net.victoryang.framework.BaseView;
-	import net.victoryang.framework.ViewStruct;
-	import net.victoryang.func.apps;
-	import net.victoryang.managers.LoaderManager;
-	import net.victoryang.uitl.StringUitl;
+	import victoryang.components.Tips;
+	import victoryang.components.scroll.ScrollBar;
+	import victoryang.core.TabButtons;
+	import victoryang.framework.BaseView;
+	import victoryang.framework.ViewStruct;
+	import victoryang.func.apps;
+	import victoryang.managers.LoaderManager;
+	import victoryang.uitl.StringUitl;
 	
 
 	/**

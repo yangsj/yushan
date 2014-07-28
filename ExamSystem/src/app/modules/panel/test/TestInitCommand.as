@@ -2,8 +2,8 @@ package app.modules.panel.test
 {
 	import app.modules.ViewName;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BaseCommand;
 	
 	
 	

@@ -10,10 +10,10 @@ package app.startup
 	import app.modules.login.service.LoginService;
 	import app.sound.SoundManager;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BaseCommand;
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.components.Tips;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BaseCommand;
+	import victoryang.managers.LoaderManager;
 	
 	
 	/**

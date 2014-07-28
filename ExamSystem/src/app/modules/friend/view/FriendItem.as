@@ -10,9 +10,9 @@ package app.modules.friend.view
 	import app.modules.friend.event.FriendEvent;
 	import app.modules.friend.model.FriendVo;
 	
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.apps;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.apps;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

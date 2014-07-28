@@ -9,7 +9,7 @@ package app.modules.task.command
 	import app.modules.task.view.TaskMediator;
 	import app.modules.task.view.TaskView;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

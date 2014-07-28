@@ -4,9 +4,9 @@ package app.modules.friend.view
 	import app.modules.friend.event.FriendEvent;
 	import app.modules.friend.service.FriendService;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.components.Tips;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

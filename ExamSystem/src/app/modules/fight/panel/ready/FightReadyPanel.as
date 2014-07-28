@@ -5,8 +5,8 @@ package app.modules.fight.panel.ready
 	import app.core.ButtonSkin;
 	import app.modules.fight.model.FightMatchingVo;
 	
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

@@ -2,9 +2,9 @@ package app.modules.fight.panel.matching
 {
 	import app.modules.fight.service.FightOnlineService;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.components.Tips;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseMediator;
 	
 	
 	

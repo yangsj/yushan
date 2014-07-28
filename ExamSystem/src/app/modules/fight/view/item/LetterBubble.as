@@ -16,10 +16,10 @@ package app.modules.fight.view.item
 	import app.sound.SoundManager;
 	import app.sound.SoundType;
 	
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.managers.TickManager;
-	import net.victoryang.uitl.MathUtil;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.removedFromParent;
+	import victoryang.managers.TickManager;
+	import victoryang.uitl.MathUtil;
 	
 	
 	/**

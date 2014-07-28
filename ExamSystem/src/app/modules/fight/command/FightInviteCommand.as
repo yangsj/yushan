@@ -6,8 +6,8 @@ package app.modules.fight.command
 	import app.modules.fight.service.FightOnlineService;
 	import app.modules.model.CommonModel;
 	
-	import net.victoryang.events.PanelEvent;
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.events.PanelEvent;
+	import victoryang.framework.BaseCommand;
 	
 	
 	

@@ -4,7 +4,7 @@ package app.modules.task.view
 	import app.modules.task.model.TaskVo;
 	import app.modules.task.service.TaskService;
 	
-	import net.victoryang.framework.BaseMediator;
+	import victoryang.framework.BaseMediator;
 	
 	
 	/**

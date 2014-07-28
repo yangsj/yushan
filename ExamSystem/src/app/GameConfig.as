@@ -2,8 +2,8 @@ package app
 {
 	import app.modules.login.login.vo.LoginVo;
 	
-	import net.victoryang.func.apps;
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.func.apps;
+	import victoryang.managers.LoaderManager;
 	
 	/**
 	 * ……

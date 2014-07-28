@@ -10,8 +10,8 @@ package app.modules.fight.view.online
 	import app.modules.fight.view.FightBaseMediator;
 	import app.modules.fight.view.spell.SpellVo;
 	
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.func.removedAllChildren;
+	import victoryang.deubg.Debug;
+	import victoryang.func.removedAllChildren;
 	
 	
 	/**

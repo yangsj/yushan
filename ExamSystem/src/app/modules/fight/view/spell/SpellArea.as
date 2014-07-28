@@ -8,9 +8,9 @@ package app.modules.fight.view.spell
 	import app.modules.fight.events.FightAloneEvent;
 	import app.modules.fight.model.LetterBubbleVo;
 	
-	import net.victoryang.framework.BaseSprite;
-	import net.victoryang.func.removedFromParent;
-	import net.victoryang.managers.TickManager;
+	import victoryang.framework.BaseSprite;
+	import victoryang.func.removedFromParent;
+	import victoryang.managers.TickManager;
 	
 
 

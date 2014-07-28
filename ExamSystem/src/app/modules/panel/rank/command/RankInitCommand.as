@@ -6,7 +6,7 @@ package app.modules.panel.rank.command
 	import app.modules.panel.rank.view.RankMediator;
 	import app.modules.panel.rank.view.RankView;
 	
-	import net.victoryang.framework.BaseCommand;
+	import victoryang.framework.BaseCommand;
 	
 	
 	/**

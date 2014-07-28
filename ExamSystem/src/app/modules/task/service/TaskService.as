@@ -22,7 +22,7 @@ package app.modules.task.service
 	import ff.task_info_t;
 	import ff.task_t;
 	
-	import net.victoryang.components.Tips;
+	import victoryang.components.Tips;
 	
 	import victor.framework.core.BaseService;
 	import victor.framework.socket.SocketResp;

@@ -19,10 +19,10 @@ package app.modules.fight.view
 	import app.modules.model.vo.ItemVo;
 	import app.sound.SoundManager;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.deubg.Debug;
-	import net.victoryang.framework.BaseMediator;
-	import net.victoryang.managers.TickManager;
+	import victoryang.components.Tips;
+	import victoryang.deubg.Debug;
+	import victoryang.framework.BaseMediator;
+	import victoryang.managers.TickManager;
 	
 	
 	/**

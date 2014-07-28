@@ -14,11 +14,11 @@ package app.modules.panel.personal.view
 	
 	import app.modules.panel.personal.model.ErrorListVo;
 	
-	import net.victoryang.components.Tips;
-	import net.victoryang.components.scroll.ScrollPanel;
-	import net.victoryang.framework.BasePanel;
-	import net.victoryang.func.removedAllChildren;
-	import net.victoryang.func.removedFromParent;
+	import victoryang.components.Tips;
+	import victoryang.components.scroll.ScrollPanel;
+	import victoryang.framework.BasePanel;
+	import victoryang.func.removedAllChildren;
+	import victoryang.func.removedFromParent;
 	
 	
 	/**

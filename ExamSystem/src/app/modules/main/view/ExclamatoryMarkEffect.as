@@ -5,7 +5,7 @@ package app.modules.main.view
 	import flash.display.Sprite;
 	import flash.geom.Matrix;
 	
-	import net.victoryang.managers.LoaderManager;
+	import victoryang.managers.LoaderManager;
 	
 	import victor.core.AnimationClip;
 	
