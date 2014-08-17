@@ -1,5 +1,6 @@
 package app.modules.login.command
 {
+	import app.events.GameEvent;
 	import app.modules.ViewName;
 	import app.modules.main.model.MainModel;
 	
@@ -40,6 +41,7 @@ package app.modules.login.command
 		{
 			Debug.debug( "登陆资源加载完毕！！！" );
 			mainModel.hasLoadCompleted = true;
+			dispatch( new GameEvent( GameEvent.MAIN_LOAD_COMPLETE ));
 		}
 		
 		private function loaderProgressCallBack( perent:Number ):void

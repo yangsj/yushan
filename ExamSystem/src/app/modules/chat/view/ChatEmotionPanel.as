@@ -6,10 +6,9 @@ package app.modules.chat.view
 	
 	import app.modules.chat.event.ChatEvent;
 	
+	import victoryang.core.Clip;
 	import victoryang.framework.BaseView;
 	import victoryang.func.apps;
-	
-	import victor.core.AnimationClip;
 	
 	
 	/**
@@ -35,7 +34,7 @@ package app.modules.chat.view
 		{
 			super.onceInit();
 			
-			var clip:AnimationClip;
+			var clip:Clip;
 			var point:Point;
 			var key:String;
 			var length:int = points.length;
@@ -43,7 +42,7 @@ package app.modules.chat.view
 			{
 				point = points[ i - 1 ];
 				key = "emotion_" + (i < 10 ? "0" : "") + i;
-				clip = new AnimationClip( "ui.chat." + key );
+				clip = new Clip( "ui.chat." + key );
 				clip.x = point.x;
 				clip.y = point.y;
 				clip.name = key;

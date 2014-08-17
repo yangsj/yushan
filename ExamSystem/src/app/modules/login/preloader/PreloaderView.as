@@ -75,7 +75,7 @@ package app.modules.login.preloader
 		{
 			if ( mcProgressBar.currentFrame < stopFrame )
 			{
-				mcProgressBar.nextFrame();
+				mcProgressBar.gotoAndStop( stopFrame );
 				if ( mcProgressBar.currentFrame >= 100 )
 				{
 					txtProgressValue.text = mcProgressBar.currentFrame + ".00%";
@@ -88,7 +88,6 @@ package app.modules.login.preloader
 			if ( mcProgressBar.currentFrame == mcProgressBar.totalFrames )
 			{
 				mcProgressBar.removeEventListener( Event.ENTER_FRAME, barEnterFrameHandler );
-				dispatchEvent( new LoadEvent( LoadEvent.LOAD_COMPLETE, data ));
 			}
 		}
 

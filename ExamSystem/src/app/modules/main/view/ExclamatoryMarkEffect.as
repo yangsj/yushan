@@ -5,9 +5,8 @@ package app.modules.main.view
 	import flash.display.Sprite;
 	import flash.geom.Matrix;
 	
+	import victoryang.core.Clip;
 	import victoryang.managers.LoaderManager;
-	
-	import victor.core.AnimationClip;
 	
 	
 	/**
@@ -21,7 +20,7 @@ package app.modules.main.view
 		/* private variables                                                          */
 		/*============================================================================*/
 		
-		private var clip:AnimationClip;
+		private var clip:Clip;
 		
 		/*============================================================================*/
 		/* Constructor                                                                */
@@ -51,14 +50,14 @@ package app.modules.main.view
 				var scale:Number = 50 / bitmapdata.height;
 				this.scaleX = this.scaleY = scale;
 			}
-			clip = new AnimationClip();
+			clip = new Clip();
 			clip.setBitmapDataList( vec, 12 );
 			addChild( clip );
 		}
 		
 		public function start():void
 		{
-			if ( clip ) clip.start();
+			if ( clip ) clip.play();
 		}
 		
 		public function stop():void

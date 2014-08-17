@@ -13,9 +13,8 @@ package com.riaidea.text {
     import flash.text.TextField;
     import flash.text.TextFormat;
     import flash.text.TextLineMetrics;
-    import flash.utils.getDefinitionByName;
     
-    import victor.core.AnimationClip;
+    import victoryang.core.Clip;
 
     /**
      * <p>RichTextField是一个基于TextField的图文混编的组件。</p>
@@ -300,7 +299,7 @@ package com.riaidea.text {
             if (obj is String) {
 //				var clazz : Class = getDefinitionByName(String(obj)) as Class;
 //				return new clazz() as DisplayObject;
-				return new AnimationClip(String(obj));
+				return new Clip(String(obj));
             } else if (obj is Class) {
                 return new obj() as DisplayObject;
             } else {

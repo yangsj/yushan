@@ -13,9 +13,9 @@ package app.core.text {
     
     import mx.utils.StringUtil;
     
-    import victor.framework.manager.LoaderManager;
+    import victoryang.components.scroll.ScrollBar;
+    import victoryang.managers.LoaderManager;
     
-    import victor.core.scroll.ScrollBar;
 
     /**
      * @author victor

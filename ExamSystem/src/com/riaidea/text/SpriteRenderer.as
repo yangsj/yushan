@@ -12,7 +12,7 @@ package com.riaidea.text {
     import flash.utils.Dictionary;
     import flash.utils.getQualifiedClassName;
     
-    import victor.core.AnimationClip;
+    import victoryang.core.Clip;
 
     /**
      * @private
@@ -151,7 +151,7 @@ package com.riaidea.text {
             var arr : Array = [];
             for (var s:* in _spriteIndices) {
 //              var info : Object = {src:getQualifiedClassName(s), index:s.name};
-				var info : Object = s is AnimationClip ? {src:s.linkage, index:s.name} : {src:getQualifiedClassName(s), index:s.name};
+				var info : Object = s is Clip ? {src:s.linkage, index:s.name} : {src:getQualifiedClassName(s), index:s.name};
                 arr.push(info);
             }
             if (arr.length > 1) arr.sortOn("index", Array.NUMERIC);

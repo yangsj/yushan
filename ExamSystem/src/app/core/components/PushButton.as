@@ -3,8 +3,7 @@ package app.core.components
 	import flash.display.MovieClip;
 	import flash.events.MouseEvent;
 	
-	import victor.framework.interfaces.IDisposable;
-	
+	import victoryang.interfaces.IDisposable;
 	
 	/**
 	 * ……
